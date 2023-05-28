@@ -14,7 +14,7 @@
 1. Jalankan perintah: `git fetch`
     -  Jika branch kita sudah up to date dengan repository github, lanjutkan ke langkah no 2.
     -  Jika branch kita tertinggal, jalankan : `git pull`
-2. Buka repo github > klik tab Projects > drag and drop card item task yang diassign kepada Anda dari **Todo** ke **In Progess**
+2. Buka repo github > klik tab Projects > lihat detail card Task yang diassign kepada Anda > jika sudah, drag and drop card item task yang diassign kepada Anda dari **Todo** ke **In Progess**
 3. Buat branch baru dengan menjalankan perintah : `git branch [nama fitur yang dikerjakan (tanpa petik)]`\
 Contoh : *`git branch halaman-beranda`*  (nama branch lowercase dan gunakan dash "-" sebagai pemisah kata)\
     - **INGAT** : **SELALU** buat branch baru untuk tiap **FITUR/TASK BARU** (**JANGAN** ngoding di branch main)
