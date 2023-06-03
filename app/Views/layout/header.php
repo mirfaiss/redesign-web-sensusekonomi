@@ -49,6 +49,7 @@
 
     <!-- CSS Custom -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
 </head>
 
-<body class="bg-lightorange">
+<body>
