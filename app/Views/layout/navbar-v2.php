@@ -60,7 +60,7 @@
             PRODUK STATISTIK
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Publikasi</a></li>
+            <li><a class="dropdown-item" href="/produk-statistik/publikasi">Publikasi</a></li>
             <li><a class="dropdown-item" href="#">Infografis</a></li>
             <li><a class="dropdown-item" href="#">Dokumen</a></li>
           </ul>
