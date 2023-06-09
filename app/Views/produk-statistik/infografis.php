@@ -41,94 +41,150 @@
     </form>
 
     <!-- galeri infografis -->
-    <section id="gallery" class="gallery content my-5">
-      <div class="container-fluid mb-5">
+    <div class="container" id="cards_landscape_wrap-2">
+      <div class="content gallery" id="gallery">
         <div class="row gy-4 justify-content-center">
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <!-- <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="card-flyer">
+                  <div class="text-box gallery-item">
+                      <div class="image-box gallery-item">
+                          <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="" />
+                          <div class="gallery-links d-flex align-items-center justify-content-center">
+                            <a href="ahttps://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>  
+                          </div>
+                      </div>
+                      <div class="text-container">
+                        <h6><a href="#" style="color: #00acc1;">Hasil Pendataan Usaha Sensus Ekonomi 2016</a></h6>
+                      </div>
+                  </div>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-2.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="card-flyer">
+                  <div class="text-box gallery-item">
+                      <div class="image-box gallery-item">
+                          <img src="https://indonesiabaik.id/public/uploads/post/580/1807_5_Manfaat_Sensus_Ekonomi_2016-01.jpg" class="img-fluid" alt="" />
+                          <div class="gallery-links d-flex align-items-center justify-content-center">
+                            <a href="https://indonesiabaik.id/public/uploads/post/580/1807_5_Manfaat_Sensus_Ekonomi_2016-01.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>  
+                          </div>
+                      </div>
+                      <div class="text-container">
+                        <h6><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Findonesiabaik.id%2Finfografis%2F5-manfaat-sensus-ekonomi&psig=AOvVaw38yNFDj-ZZgD3YQWquohUY&ust=1686406966970000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj_oN6xtv8CFQAAAAAdAAAAABAH" style="color: #00acc1;">5 Manfaat Sensus Ekonomi 2016</a></h6>
+                      </div>
+                  </div>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="card-flyer">
+                  <div class="text-box gallery-item">
+                      <div class="image-box gallery-item">
+                          <img src="https://indonesiabaik.id/public/uploads/post/583/2107_Sensus_Ekonomi_2016_Data_yang_Dihimpun-01.jpg" class="img-fluid" alt="" />
+                          <div class="gallery-links d-flex align-items-center justify-content-center">
+                            <a href="https://indonesiabaik.id/public/uploads/post/583/2107_Sensus_Ekonomi_2016_Data_yang_Dihimpun-01.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>  
+                          </div>
+                      </div>
+                      <div class="text-container">
+                        <h6><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Findonesiabaik.id%2Finfografis%2Fsensus-ekonomi-2016-data-yang-dihimpun&psig=AOvVaw38yNFDj-ZZgD3YQWquohUY&ust=1686406966970000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj_oN6xtv8CFQAAAAAdAAAAABAX" style="color: #00acc1;">Data yang Dihimpun</a></h6>
+                      </div>
+                  </div>
               </div>
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="card-flyer">
+                  <div class="text-box gallery-item">
+                      <div class="image-box gallery-item">
+                          <img src="https://indonesiabaik.id/public/uploads/post/581/2007_Intisari_Sensus_Ekonomi_2016-01.jpg" class="img-fluid" alt="" />
+                          <div class="gallery-links d-flex align-items-center justify-content-center">
+                            <a href="https://indonesiabaik.id/public/uploads/post/581/2007_Intisari_Sensus_Ekonomi_2016-01.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>  
+                          </div>
+                      </div>
+                      <div class="text-container">
+                        <h6><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Findonesiabaik.id%2Finfografis%2Fintisari-sensus-ekonomi-2016&psig=AOvVaw38yNFDj-ZZgD3YQWquohUY&ust=1686406966970000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj_oN6xtv8CFQAAAAAdAAAAABAv" style="color: #00acc1;">Intisari Sensus Ekonomi 2016</a></h6>
+                      </div>
+                  </div>
               </div>
             </div>
-          </div>
+            
         </div>
         <div class="row gy-4 justify-content-center">
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="card-flyer">
+                  <div class="text-box gallery-item">
+                      <div class="image-box gallery-item">
+                          <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="" />
+                          <div class="gallery-links d-flex align-items-center justify-content-center">
+                            <a href="ahttps://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>  
+                          </div>
+                      </div>
+                      <div class="text-container">
+                        <h6><a href="#" style="color: #00acc1;">Hasil Pendataan Usaha Sensus Ekonomi 2016</a></h6>
+                      </div>
+                  </div>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-2.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="card-flyer">
+                  <div class="text-box gallery-item">
+                      <div class="image-box gallery-item">
+                          <img src="https://indonesiabaik.id/public/uploads/post/580/1807_5_Manfaat_Sensus_Ekonomi_2016-01.jpg" class="img-fluid" alt="" />
+                          <div class="gallery-links d-flex align-items-center justify-content-center">
+                            <a href="https://indonesiabaik.id/public/uploads/post/580/1807_5_Manfaat_Sensus_Ekonomi_2016-01.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>  
+                          </div>
+                      </div>
+                      <div class="text-container">
+                        <h6><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Findonesiabaik.id%2Finfografis%2F5-manfaat-sensus-ekonomi&psig=AOvVaw38yNFDj-ZZgD3YQWquohUY&ust=1686406966970000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj_oN6xtv8CFQAAAAAdAAAAABAH" style="color: #00acc1;">5 Manfaat Sensus Ekonomi 2016</a></h6>
+                      </div>
+                  </div>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="card-flyer">
+                  <div class="text-box gallery-item">
+                      <div class="image-box gallery-item">
+                          <img src="https://indonesiabaik.id/public/uploads/post/583/2107_Sensus_Ekonomi_2016_Data_yang_Dihimpun-01.jpg" class="img-fluid" alt="" />
+                          <div class="gallery-links d-flex align-items-center justify-content-center">
+                            <a href="https://indonesiabaik.id/public/uploads/post/583/2107_Sensus_Ekonomi_2016_Data_yang_Dihimpun-01.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>  
+                          </div>
+                      </div>
+                      <div class="text-container">
+                        <h6><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Findonesiabaik.id%2Finfografis%2Fsensus-ekonomi-2016-data-yang-dihimpun&psig=AOvVaw38yNFDj-ZZgD3YQWquohUY&ust=1686406966970000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj_oN6xtv8CFQAAAAAdAAAAABAX" style="color: #00acc1;">Data yang Dihimpun</a></h6>
+                      </div>
+                  </div>
               </div>
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="https://se2016.bps.go.id/umkumb/files/umkumb/35_Jawa%20TImur/3500_Poster_Provinsi_02.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="card-flyer">
+                  <div class="text-box gallery-item">
+                      <div class="image-box gallery-item">
+                          <img src="https://indonesiabaik.id/public/uploads/post/581/2007_Intisari_Sensus_Ekonomi_2016-01.jpg" class="img-fluid" alt="" />
+                          <div class="gallery-links d-flex align-items-center justify-content-center">
+                            <a href="https://indonesiabaik.id/public/uploads/post/581/2007_Intisari_Sensus_Ekonomi_2016-01.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>  
+                          </div>
+                      </div>
+                      <div class="text-container">
+                        <h6><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Findonesiabaik.id%2Finfografis%2Fintisari-sensus-ekonomi-2016&psig=AOvVaw38yNFDj-ZZgD3YQWquohUY&ust=1686406966970000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj_oN6xtv8CFQAAAAAdAAAAABAv" style="color: #00acc1;">Intisari Sensus Ekonomi 2016</a></h6>
+                      </div>
+                  </div>
               </div>
             </div>
-          </div>
         </div>
+        <div class="row mt-5">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 tombolOranye">
+                <button type="submit" class="btn btn-primary bottom-0 end-0">Lainnya</button>
+            </div>
+        </div>
+      </div>
+    </div>
 
 </div>
 <?= $this->endSection(); ?>
 
-<!-- Vendor JS Files -->
-<script src="../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../../../assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="../../../assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="../../../assets/vendor/aos/aos.js"></script>
-  <script src="../../../assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
