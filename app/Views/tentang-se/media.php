@@ -32,6 +32,8 @@
                                     <li data-filter=".filter-app">App</li>
                                     <li data-filter=".filter-card">Card</li>
                                     <li data-filter=".filter-web">Web</li>
+                                    <li data-filter=".filter-persiapan">Persiapan</li>
+                                    <li data-filter=".filter-sosialisasi">Sosialisasi</li>
                                 </ul>
                             </div>
                         </div>
@@ -128,7 +130,388 @@
                                 </div>
                             </div>
 
+                            <!--SECTION PERSIAPAN -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan01.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 01"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan04.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan04.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 04"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan03.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 03"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan05.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 05"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan06.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan06.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 06"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan07.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan07.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 07"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan10.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 10"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan11.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 11"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan12.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 12"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan13.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 13"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan14.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 14"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-persiapan">
+                                <img src="/assets/images/gallery/persiapan/persiapan15.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Web 3</h4>
+                                    <p>Web</p>
+                                    <a href="/assets/images/gallery/persiapan/persiapan15.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Persiapan 15"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+
+                            <!-- SECTION SOSIALISASI -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi01.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 1</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 01"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi02.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 1 3</h4>
+                                    <p>Sosialisasi 1</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 02"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi05.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 3</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 05"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi03.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 4</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 03"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi05.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 5</h4>
+                                    <p>Sosialisasi 1</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 03"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi06.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi06.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 06"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi07.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi</h4>
+                                    <p>Sosialisasi 1</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi07.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 07"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi08.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 8</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi08.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 08"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi09.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 9</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi09.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 09"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi10.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 10</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 10"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi11.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 11</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 11"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi12.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 12</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 12"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi13.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 13</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 13"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi14.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 14</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 14"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi15.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 15</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi15.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 15"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi16.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 16</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi16.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 16"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi17.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 17</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi17.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 17"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi18.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 18</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi18.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 18"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi19.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 19</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi19.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 19"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi20.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 20</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi20.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 20"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi21.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 21</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi21.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 21"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi22.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 22</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi22.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 22"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi23.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 23</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi23.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 23"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi26.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 26</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi26.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 26"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi24.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 24</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi24.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 24"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-sosialisasi">
+                                <img src="/assets/images/gallery/sosialisasi/sosialisasi25.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sosialisasi 25</h4>
+                                    <p>Sosialisasi</p>
+                                    <a href="/assets/images/gallery/sosialisasi/sosialisasi25.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sosialisasi 25"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+
+
                         </div>
+
 
                     </div>
                 </section><!-- End Gallery Section -->
