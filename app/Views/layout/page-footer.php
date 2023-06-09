@@ -21,7 +21,7 @@
             <small>(62-21) 3857046</small>
         </div>
         <div>
-        <i class="bi bi-envelope-fill"></i>
+            <i class="bi bi-envelope-fill"></i>
             <small>bpshq@bps.go.id</small>
         </div>
     </div>
@@ -29,7 +29,7 @@
         <div>
             <p class="fw-bolder">KONTAK MARKAS BESAR SE2016</p>
             <i class="bi bi-envelope-fill"></i>
-                <small>se2016@bps.go.id</small>
+            <small>se2016@bps.go.id</small>
         </div>
         <!-- <div>
             <p class="fw-bolder">MEDIA SOSIAL</p>
@@ -44,3 +44,9 @@
         <a href="#" class="text-decoration-none text-light"><small class="fw-bolder">Dokumen Lainnya</small></a>
     </div>
 </div>
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+<!-- Footer -->
+
+<!-- Footer -->
