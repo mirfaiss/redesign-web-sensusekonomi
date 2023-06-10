@@ -38,7 +38,9 @@ $routes->get('/', 'Home::index');
 */
 $routes->get('/produk-statistik/publikasi', 'ProdukStatistik::index/publikasi');
 $routes->get('/produk-statistik/dokumen', 'ProdukStatistik::index/dokumen');
+$routes->get('/produk-statistik/dokumen/(:any)', 'ProdukStatistik::dokumen/$1');
 $routes->get('/produk-statistik/infografis', 'ProdukStatistik::index/infografis');
+
 
 
 /*

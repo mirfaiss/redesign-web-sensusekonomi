@@ -51,9 +51,6 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="stylesheet" href="/assets/css/produkStatistik.css">
-
-    <!-- js -->
-    <script src="/assets/js/infografis.js"></script>
 </head>
 
 <body>

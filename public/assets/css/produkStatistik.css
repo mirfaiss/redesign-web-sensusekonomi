@@ -1,6 +1,21 @@
 /*--------------------------------------------------------------
 # Publikasi
 --------------------------------------------------------------*/
+.btn-dokumen {
+  background-color: #CD650C;
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+}
+
+
+.btn-dokumen:hover {
+  color: #e77123;
+  background-color: wheat;
+  text-decoration: none;
+}
+
 #cards_landscape_wrap-2 {
   text-align: center;
 }
