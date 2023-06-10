@@ -8,7 +8,7 @@
     <script src="/assets/vendorx/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="/assets/vendorx/swiper/swiper-bundle.min.js"></script>
     <script src="/assets/vendorx/waypoints/noframework.waypoints.js"></script>
-    <script src="/assets/vendorx/php-email-form/validate.js"></script>
+    <!-- <script src="/assets/vendorx/php-email-form/validate.js"></script> -->
     <script>
         AOS.init({
             once: true
