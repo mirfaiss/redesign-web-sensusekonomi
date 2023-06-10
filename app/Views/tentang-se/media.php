@@ -11,7 +11,7 @@
         </div>
     </div> -->
 
-    <div class="container my-5">
+    <div class="container mt-5">
         <main id="main">
             <div class="gallery bg-coba" style="padding: 30px;" data-aos="fade-up">
                 <!-- ======= Gallery Section ======= -->
@@ -306,10 +306,23 @@
                         </div>
                     </div>
                 </section>
+
             </div>
             <!-- End Gallery Section -->
+        </main>
     </div>
-    </main>
-</div>
 
-<?= $this->endSection(); ?>
+    <div class="container mb-5">
+        <div class="container bg-coba pb-5">
+            <div class="section-title">
+                <h2>Video</h2>
+                <h3>Video <span class="orange">Sensus Ekonomi 2016</span></h3>
+                <p>Berisi pengenalan mengenai Sensus Ekonomi 2016 serta alur kegiatannya.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <iframe class="p-1 bg-black rounded" width="560" height="315" src="https://www.youtube.com/embed/4JRHpPVcrGc" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <?= $this->endSection(); ?>
