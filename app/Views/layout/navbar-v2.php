@@ -9,9 +9,9 @@
             BADAN PUSAT STATISTIK
           </i>
         </a>
-        
-          <img src="/assets/images/logo-se2016.png" alt="Logo-Sensus-Ekonomi-2016" style="max-width: 20%;" class="align-text-center pe-2">
-        
+
+        <img src="/assets/images/logo-se2016.png" alt="Logo-Sensus-Ekonomi-2016" style="max-width: 20%;" class="align-text-center pe-2">
+
       </div>
 
     </div>
@@ -38,7 +38,7 @@
     <div class="collapse navbar-collapse nav-custom" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">BERANDA</a>
+          <a class="nav-link" aria-current="page" href="/">BERANDA</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -71,9 +71,9 @@
             TENTANG SE2016
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Metadata</a></li>
-            <li><a class="dropdown-item" href="#">Media</a></li>
-            <li><a class="dropdown-item" href="#">Timeline</a></li>
+            <li><a class="dropdown-item" href="/tentang-se2016/metadata">Metadata</a></li>
+            <li><a class="dropdown-item" href="/tentang-se2016/media">Media</a></li>
+            <li><a class="dropdown-item" href="/tentang-se2016/timeline">Timeline</a></li>
           </ul>
         </li>
       </ul>

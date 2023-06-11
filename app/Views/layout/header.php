@@ -15,6 +15,9 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Fonts Google -->
 
     <!-- Roboto -->
@@ -65,7 +68,10 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/beranda.css">
-
+    <link rel="stylesheet" href="/assets/css/tentang-se.css">
+  
+    <!-- JS Custon -->
+    <script src="/assets/js/tentang-se.js"></script>
 
 </head>
 

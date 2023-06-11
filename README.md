@@ -47,3 +47,23 @@ Contoh : *`git checkout halaman-beranda`*
 
 Happy Coding :)
 
+
+___
+# List Tugas
+## a. Prioritas 1
+    - (P1) Beranda : Shawna
+    - (P1) Produk Statistik – Publikasi & Infografis : Intan
+    - (P1) Produk Statistik – Dokumen : Salsa
+    - (P1) Tentang – Metadata : Fais
+    - (P1) Tentang – Media
+    - (P1) Tentang - Timeline
+
+## b. Prioritas 2
+    - (P2) Layanan Data – Tabel Topik
+    - (P2) Layanan Data – Perbandingan Antar Wilayah
+
+## c. Prioritas 3
+    - (P3) SE2016 Lanjutan 
+
+## d. Navbar & Footer : Shawna
+
