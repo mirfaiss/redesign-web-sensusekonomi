@@ -65,9 +65,9 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <!-- CSS Custom -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/beranda.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/beranda.css">
     <link rel="stylesheet" href="/assets/css/tentang-se.css">
   
     <!-- JS Custon -->
