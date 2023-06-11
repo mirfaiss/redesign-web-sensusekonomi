@@ -1,0 +1,29 @@
+.img-bg{
+    
+}
+
+.img-cover{
+    height: 85vh;
+    width: 100vw;
+}
+
+.content-hasilse{
+    height: 85vh;
+    max-width: 100vw;
+    background-color: rgba(24, 18, 13, 0.6);
+    /* display: none; */
+}
+
+.hover\:animate:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 1px 0.5px 10px #f5f5f5;
+}
+
+
+.card-publikasi-beranda:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
