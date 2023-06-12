@@ -15,6 +15,7 @@
         });
     </script>
     <script src="/assets/js/tentang-se.js"></script>
+    <script src="timelineJs.js"></script>
     </body>
 
     </html>

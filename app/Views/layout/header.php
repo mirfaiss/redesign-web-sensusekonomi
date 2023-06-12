@@ -70,6 +70,7 @@
     <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="stylesheet" href="/assets/css/tentang-se.css">
     <link rel="stylesheet" href="/assets/css/tentang-se-media.css">
+    <link rel="stylesheet" href="/assets/css/styleTimeline.css">
 </head>
 
 <body>
