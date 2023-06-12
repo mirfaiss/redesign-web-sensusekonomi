@@ -46,7 +46,7 @@
             LAYANAN DATA
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Tabel Topik</a></li>
+            <li><a class="dropdown-item" href="/layanan-data/tabel-topik">Tabel Topik</a></li>
             <li><a class="dropdown-item" href="#">Perbandingan Antar Wilayah</a></li>
           </ul>
         </li>

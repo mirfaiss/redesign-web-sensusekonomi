@@ -42,6 +42,12 @@ $routes->get('/produk-statistik/dokumen/(:any)', 'ProdukStatistik::dokumen/$1');
 $routes->get('/produk-statistik/infografis', 'ProdukStatistik::index/infografis');
 
 
+/* --------------------------------------------------------------------
+* Layanan data
+* --------------------------------------------------------------------
+*/
+$routes->get('/layanan-data/tabel-topik', 'LayananData::index/tabelTopik');
+$routes->get('/layanan-data/tabel-topik/jumlah-usaha-tenaga-kerja-dan-balas-jasa', 'LayananData::index/jumlahUsaha');
 
 /*
  * --------------------------------------------------------------------
