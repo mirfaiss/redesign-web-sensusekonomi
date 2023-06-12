@@ -4,11 +4,11 @@
 <div class="container">
     <h1 class="my-4" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Timeline</strong></h1>
 
-    <div class="container-timeline">
+    <div class="container bg-timeline timeline timeline-container">
         <div class="ag-timeline-block">
             <div class="ag-timeline_title-box">
-                <div class="ag-timeline_tagline">Timeline</div>
-                <div class="ag-timeline_title">No Flex</div>
+                <!-- <div class="ag-timeline_tagline">Timeline</div>
+                <div class="ag-timeline_title">No Flex</div> -->
             </div>
             <section class="ag-section">
                 <div class="ag-format-container">
@@ -20,30 +20,21 @@
                             <div class="js-timeline_item ag-timeline_item">
                                 <div class="ag-timeline-card_box">
                                     <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2021</div>
+                                        <div class="ag-timeline-card_point">2015</div>
                                     </div>
                                     <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 13</div>
+                                        <div class="ag-timeline-card_meta">Juni</div>
                                     </div>
                                 </div>
                                 <div class="ag-timeline-card_item">
                                     <div class="ag-timeline-card_inner">
                                         <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
+                                            <img src="/assets/images/timeline/01.jpg" class="ag-timeline-card_img" width="640" height="300" />
                                         </div>
                                         <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 13</div>
+                                            <div class="ag-timeline-card_title">Persiapan</div>
                                             <div class="ag-timeline-card_desc">
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                                                ligula
-                                                eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                                                parturient
-                                                montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                                pellentesque
-                                                eu,
-                                                pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                                                fringilla
-                                                vel, aliquet nec, vulputate eget, arcu.
+                                                Persiapan Sensus Ekonomi 2016
                                             </div>
                                         </div>
                                     </div>
@@ -54,333 +45,7 @@
                             <div class="js-timeline_item ag-timeline_item">
                                 <div class="ag-timeline-card_box">
                                     <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 12</div>
-                                    </div>
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2020</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-12.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 12</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Donec pede justo, fringilla
-                                                vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                                                a,
-                                                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-                                                tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                                                eleifend
-                                                tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-                                                viverra
-                                                nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2020</div>
-                                    </div>
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 11</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-11.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 11</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Aenean imperdiet. Etiam ultricies
-                                                nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
-                                                rhoncus.
-                                                Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-                                                sit
-                                                amet
-                                                adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
-                                                hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
-                                                sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci
-                                                eget
-                                                eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 10</div>
-                                    </div>
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2019</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-10.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 10</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Cum sociis natoque penatibus et magnis dis parturient
-                                                montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                                pellentesque
-                                                eu,
-                                                pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                                                fringilla
-                                                vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                                                a,
-                                                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-                                                tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2019</div>
-                                    </div>
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 9</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-9.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 9</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Vivamus elementum semper nisi. Aenean vulputate eleifend
-                                                tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-                                                viverra
-                                                nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-                                                ultricies
-                                                nisi vel augue. Curabitur ullamcorper ultricies nisi.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 8</div>
-                                    </div>
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2018</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-8.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 8</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Donec quam felis, ultricies nec, pellentesque eu,
-                                                pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                                                fringilla
-                                                vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                                                a,
-                                                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-                                                tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2018</div>
-                                    </div>
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 7</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-7.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 7</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Quisque rutrum. Aenean imperdiet. Etiam ultricies
-                                                nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
-                                                rhoncus.
-                                                Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-                                                sit
-                                                amet
-                                                adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
-                                                hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 6</div>
-                                    </div>
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2017</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-6.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 6</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Vivamus elementum semper nisi. Aenean vulputate eleifend
-                                                tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-                                                viverra
-                                                nulla ut metus varius laoreet. Quisque rutrum.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2017</div>
-                                    </div>
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 5</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-5.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 5</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Donec pede justo, fringilla
-                                                vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                                                a,
-                                                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-                                                tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                                                eleifend
-                                                tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-                                                viverra
-                                                nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-                                                ultricies
-                                                nisi vel augue. Curabitur ullamcorper ultricies nisi.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 4</div>
-                                    </div>
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2016</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-4.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 4</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Nullam dictum felis eu pede mollis pretium. Integer
-                                                tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                                                eleifend
-                                                tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-                                                viverra
-                                                nulla ut metus varius laoreet.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                        <div class="ag-timeline-card_point">2016</div>
-                                    </div>
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 3</div>
-                                    </div>
-                                </div>
-                                <div class="ag-timeline-card_item">
-                                    <div class="ag-timeline-card_inner">
-                                        <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-3.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                        </div>
-                                        <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 3</div>
-                                            <div class="ag-timeline-card_desc">
-                                                Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                                                Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-                                                sit
-                                                amet
-                                                adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
-                                                hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
-                                                sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci
-                                                eget
-                                                eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ag-timeline-card_arrow"></div>
-                                </div>
-                            </div>
-
-                            <div class="js-timeline_item ag-timeline_item">
-                                <div class="ag-timeline-card_box">
-                                    <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 2</div>
+                                        <div class="ag-timeline-card_meta">Juli - Agustus</div>
                                     </div>
                                     <div class="js-timeline-card_point-box ag-timeline-card_point-box">
                                         <div class="ag-timeline-card_point">2015</div>
@@ -389,18 +54,12 @@
                                 <div class="ag-timeline-card_item">
                                     <div class="ag-timeline-card_inner">
                                         <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png" class="ag-timeline-card_img" width="640" height="360" />
+                                            <img src="/assets/images/timeline/02.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
                                         </div>
                                         <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 2</div>
+                                            <div class="ag-timeline-card_title">Finalisasi Konsep dan Metodologi</div>
                                             <div class="ag-timeline-card_desc">
-                                                Aenean vulputate eleifend
-                                                tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-                                                viverra
-                                                nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-                                                ultricies
-                                                nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                                                Rapat Pembahasan Finalisasi Metodologi,Organisasi Lapangan, Kuesioner, Dan Buku Pedoman Listing SE 2016
                                             </div>
                                         </div>
                                     </div>
@@ -414,31 +73,450 @@
                                         <div class="ag-timeline-card_point">2015</div>
                                     </div>
                                     <div class="ag-timeline-card_meta-box">
-                                        <div class="ag-timeline-card_meta">Season 1</div>
+                                        <div class="ag-timeline-card_meta">Agustus</div>
                                     </div>
                                 </div>
                                 <div class="ag-timeline-card_item">
                                     <div class="ag-timeline-card_inner">
                                         <div class="ag-timeline-card_img-box">
-                                            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-1.png" class="ag-timeline-card_img" width="640" height="360" />
+                                            <img src="/assets/images/timeline/03.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
                                         </div>
                                         <div class="ag-timeline-card_info">
-                                            <div class="ag-timeline-card_title">Season 1</div>
+                                            <div class="ag-timeline-card_title">Koordinasi Dengan BPS Provinsi</div>
                                             <div class="ag-timeline-card_desc">
-                                                Donec pede justo, fringilla
-                                                vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                                                a,
-                                                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-                                                tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                                                eleifend
-                                                tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                                                Koordinasi Dengan BPS Provinsi se Indonesia
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ag-timeline-card_arrow"></div>
                                 </div>
                             </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Agustus - Desember</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2015</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/04.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Pengadaan ATK Dan Peralatan Petugas</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pengadaan ATK dan Peralatan Petugas
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2015</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">September - Desember</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/05.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Buku Pedoman, Kuesioner dan Bahan Ajar</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pengadaan Buku Pedoman dan Kuesioner Listing SE2016; Penyusunan Bahan Ajar Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Oktober - Desember</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2015</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/06.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Sistem Pengolahan dan Tabulasi</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Finalisasi Sistem Pengolahan dan Tabulasi
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Januari</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/07.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Workshop Intama</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Workshop Intama Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Februari </div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/08.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Pencetakan Buku Pedoman dan Pelatihan Innas</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pencetakan Buku Pedoman Pengolahan dan Pelatihan Innas +MK Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Maret</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/09.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Pelatihan Inda + MK Listing SE2016</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pelatihan Inda + MK Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Maret - April</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/10.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Pelatihan Petugas, Cetak Dokumen Listing dan MK</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pelatihan Petugas Listing SE2016; Printing SE2016-L1.P Dan SE2016-L2.P; Pelatihan Innas + MK Pengolahan Listing SE2016; Pelatihan Petugas Editor Hasil Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Mei</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/11.jpg" class="ag-timeline-card_img" width="640" height="300" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Pencacahan Dan Pengawasan</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pencacahan Dan Pengawasan Listing SE2016; Pelaksanaan Monitoring Kualitas Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Mei - Juni</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/12.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Editing, Coding, Rekapitulasi Listing</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pengolahan SE2016-RLB Di Kabupaten/Kota; Editing Coding SE2016-L1, SE2016-L2, SE2016-L1.P, SE2016-L2.P Di BPS Kab/Kota
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Mei - Oktober</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/13.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Pengolahan Data</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pengolahan SE2016-L1, SE2016-L2, SE2016-L1.P, SE2016-L2.P
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Juni</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/14.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Pelatihan Petugas PES</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pelatihan Innas PES Listing SE2016; Pelatihan Petugas Post Enumeration Survey Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Juli</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/15.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">PES Listing dan Tabulasi Listing</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pelaksanaan PES Listing SE2016; Tabulasi Hasil SE2016RLB
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Agustus</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/16.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Matching PES dan Diseminasi Rekap Listing</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Analisis Dan Diseminasi Hasil SE2016RLB; Pelaksanaan Matching PES Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">September - Oktober</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/13.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Pengolahan PES</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pengolahan PES Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">November</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/17.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Tabulasi dan Rekonsiliasi Data</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Tabulasi Hasil Pengolahan SE2016-L1, SE2016-L2, SE2016-L1.P, SE2016-L2.P; Rekonsiliasi Hasil Pengolahan SE2016-L1, SE2016-L2, SE2016-L1.P, SE2016-L2.P
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2016</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Desember</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/18.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Hasil Sementara dan Laporan Listing</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Pembahasan Hasil Sementara Listing 2016; Penyusunan Laporan Listing SE2016; Penyusunan Laporan PES Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">4 Januari</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2017</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="/assets/images/timeline/19.jpg" class="ag-timeline-card_img" width="640" height="300" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Hasil Listing SE-2016</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Berita Resmi Statistik (BRS) Hasil Listing SE2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
