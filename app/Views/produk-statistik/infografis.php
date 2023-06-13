@@ -4,7 +4,7 @@
 <div class="container my-5">
     <!-- <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Metadata</strong></h1> -->
 
-    <!-- filter -->
+    <!-- filter, ngoding manual -->
     <form>
         <fieldset disabled>
             <div class="row mb-3">
@@ -40,7 +40,7 @@
         </fieldset>
     </form>
 
-    <!-- galeri infografis -->
+    <!-- galeri infografis, template + modif manual -->
     <div class="container" id="cards_landscape_wrap-2">
       <div class="content gallery" id="gallery">
         <div class="row gy-4 justify-content-center">
@@ -186,5 +186,6 @@
     </div>
 
 </div>
+
 <?= $this->endSection(); ?>
 

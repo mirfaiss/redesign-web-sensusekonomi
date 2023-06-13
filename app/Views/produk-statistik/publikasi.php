@@ -4,7 +4,7 @@
 <div class="container my-5">
     <!-- <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Metadata</strong></h1> -->
 
-    <!-- filter -->
+    <!-- filter, ngoding manual-->
     <div class="container">
         <div class="content my-5">
             <form>
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <!-- publikasi -->
+    <!-- publikasi, template + modif manual -->
     <div class="container" id="cards_landscape_wrap-2">
         <div class="content gallery" id="gallery">
             <div class="row gy-4 justify-content-center">
