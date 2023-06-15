@@ -201,8 +201,6 @@
         </div>
     </div>
 
-
-    <!-- <iframe src="/assets/surat dukungan.pdf" width="80%" height="500"></iframe> -->
 </div>
 
 <?= $this->endSection(); ?>
