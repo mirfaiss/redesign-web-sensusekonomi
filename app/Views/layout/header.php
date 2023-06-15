@@ -15,6 +15,15 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+    <!-- Library JS
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.3.1/js/dataTables.rowGroup.min.js"></script> -->
+
+    <!-- Library CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/rowgroup/1.3.1/css/rowGroup.dataTables.min.css">
+
     <!-- AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -69,9 +78,6 @@
     <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="stylesheet" href="/assets/css/beranda.css">
     <link rel="stylesheet" href="/assets/css/tentang-se.css">
-  
-    <!-- JS Custon -->
-    <script src="/assets/js/tentang-se.js"></script>
 
 </head>
 

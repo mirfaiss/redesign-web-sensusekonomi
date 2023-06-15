@@ -8,6 +8,15 @@
     <!-- Owl Carousel JS Customize-->
     <script src="/assets/js/owl-carousel.js"></script>
 
+    <!-- Library JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.3.1/js/dataTables.rowGroup.min.js"></script>
+
+    <!-- Js Table Perbandingan wilayah -->
+    <script src="/assets/js/perbandingan-wilayah.js"></script>
+
+
     <!-- JS for Fancybox -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script>
@@ -34,6 +43,6 @@
         });
     </script>
 
-</body>
+    </body>
 
-</html>
+    </html>

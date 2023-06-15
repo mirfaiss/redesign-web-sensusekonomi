@@ -113,12 +113,13 @@
 <div class="container-fluid bg-lightorange2 pt-5 pb-5 shadow-sm">
     <h3 class="text-center fw-700 pb-4">Layanan Data</h3>
     <div class="container d-flex flex-column flex-md-row flex-wrap gap-2 justify-content-around">
+
         <div class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-md-column w-full md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="border-radius:30px;">
             <i class="bi bi-file-earmark-spreadsheet text-3xl sm:text-4xl md:text-5xl p-1"></i>
             <div class="fw-800 p-2 md:text-center text-base sm:text-1xl md:text-1xl">Tabel Topik</div>
         </div>
 
-        <button class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-md-column w-full md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="border-radius:30px">
+        <button onclick="window.location.href='/perbandingan-wilayah'" class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-md-column w-full md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="border-radius:30px">
             <i class="bi bi-map text-3xl sm:text-4xl md:text-5xl p-1"></i>
             <div class="fw-800 p-2 md:text-center text-base sm:text-1xl md:text-1xl">Perbandingan Antar Wilayah</div>
         </button>

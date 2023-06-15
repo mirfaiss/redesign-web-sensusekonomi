@@ -47,7 +47,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Tabel Topik</a></li>
-            <li><a class="dropdown-item" href="#">Perbandingan Antar Wilayah</a></li>
+            <li><a class="dropdown-item" href="/perbandingan-wilayah">Perbandingan Antar Wilayah</a></li>
           </ul>
         </li>
 
