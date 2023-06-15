@@ -7,7 +7,6 @@ $(document).ready(function () {
             { data: 'head' },
             { data: 'extn' },
             { data: 'start_date' },
-            { data: 'salary' }
         ],
         orderFixed: [[2, 'asc']],
         rowGroup: {

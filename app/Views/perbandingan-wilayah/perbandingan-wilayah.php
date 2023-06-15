@@ -42,27 +42,27 @@
         </div>
     </div>
 
-    <div class="container container-tabel bg-orange">
+    <div class="container container-tabel">
         <div class="container my-5 ">
             <table id="tabel-perbandingan" class="display" style="width:100%">
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Extn.</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
+                        <th>Indikator</th>
+                        <th>Satuan</th>
+                        <th>Head</th>
+                        <th>Jawa Tengah</th>
+                        <th>Jawa Timur</th>
+                        <!-- <th>Salary</th> -->
                     </tr>
                 </thead>
                 <tfoot>
                     <tr>
                         <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Extn.</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
+                        <th>Satuan</th>
+                        <th>Head</th>
+                        <th>Jawa Tengah</th>
+                        <th>Jawa Timur</th>
+                        <!-- <th>Salary</th> -->
                     </tr>
                 </tfoot>
             </table>
