@@ -56,8 +56,8 @@
             <div class="col-12 col-md-6 text-center align-items-center d-flex flex-column justify-content-center">
                 <h3 class="text-white fw-800 p-3">Mencatat Ekonomi Indonesia</h3>
                 <div class="d-flex flex-column flex-md-row gap-3">
-                    <button data-aos="fade-right" data-aos-duration="1400" class="btn btn-darkbrown hover:darkbrown shadow rounded-pill fw-700 p-3 text-base sm:text-1xl md:text-1xl">Unduh Kuesioner</button>
-                    <button data-aos="fade-left" data-aos-duration="1400" class="btn btn-darkbrown hover:darkbrown shadow rounded-pill fw-700 p-3 text-base sm:text-1xl md:text-1xl">Leaflet & Booklet</button>
+                    <a data-aos="fade-right" data-aos-duration="1400" class="btn btn-darkbrown hover:darkbrown shadow rounded-pill fw-700 p-3 text-base sm:text-1xl md:text-1xl">Unduh Kuesioner</a>
+                    <a data-aos="fade-left" data-aos-duration="1400" class="btn btn-darkbrown hover:darkbrown shadow rounded-pill fw-700 p-3 text-base sm:text-1xl md:text-1xl">Leaflet & Booklet</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
 <div class="container-md">
     <div class="row pt-5 pb-5 mt-4">
         <div class="col-12 col-md-5 d-none d-md-flex justify-content-center">
-            <img class="shadow" data-aos="fade-right" data-aos-duration="1600" data-aos-delay="100" style="border-radius: 40px;" src="/assets/images/city-view-potrait.jpg" alt="picture" width="80%">
+            <img class="shadow" data-aos="fade-right" data-aos-duration="1600" data-aos-delay="100" style="border-radius: 40px; object-fit: cover;" src="/assets/images/city-view-potrait.jpg" alt="picture" width="80%">
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" class="col-12 col-md-7 p-3 shadow" style="border-radius: 40px;">
             <h3 class="text-center fw-700">Data Apa yang Dihasilkan?</h3>
@@ -110,18 +110,18 @@
 
 
 <!-- LAYANAN DATA -->
-<div class="container-fluid bg-lightorange2 pt-5 pb-5 shadow-sm">
+<div class="container-fluid bg-lightorange pt-5 pb-5 shadow-sm">
     <h3 class="text-center fw-700 pb-4">Layanan Data</h3>
-    <div class="container d-flex flex-column flex-md-row flex-wrap gap-2 justify-content-around">
-        <div class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-md-column w-full md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="border-radius:30px;">
-            <i class="bi bi-file-earmark-spreadsheet text-3xl sm:text-4xl md:text-5xl p-1"></i>
-            <div class="fw-800 p-2 md:text-center text-base sm:text-1xl md:text-1xl">Tabel Topik</div>
-        </div>
-
-        <button class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-md-column w-full md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="border-radius:30px">
-            <i class="bi bi-map text-3xl sm:text-4xl md:text-5xl p-1"></i>
-            <div class="fw-800 p-2 md:text-center text-base sm:text-1xl md:text-1xl">Perbandingan Antar Wilayah</div>
-        </button>
+    <div class="container d-flex flex-column flex-sm-row flex-wrap gap-2 justify-content-around">
+        <a href="#" class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-column gap-2 w-full sm:w-40 md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="border-radius:30px;">
+            <img class="w-20 sm:w-30 md:w-40" src="/assets/images/table 2.png" alt="vector image">
+            <div class="fw-600 md:text-center text-base md:text-1xl">Tabel Topik</div>
+        </a>
+        
+        <a href="#" class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-column gap-2 w-full sm:w-40 md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="border-radius:30px">
+            <img class="w-20 sm:w-30 md:w-40" src="/assets/images/perb antar wilayah 4.png" alt="vector image">
+            <div class="fw-600 md:text-center text-base md:text-1xl">Perbandingan Antar Wilayah</div>
+        </a>
 
     </div>
 </div>
@@ -145,33 +145,33 @@
         <h3 class="text-center fw-700 pb-4">Publikasi</h3>
         <div class="col-12 d-flex flex-md-row justify-content-center align-items-center gap-4 flex-wrap">
 
-            <a class="w-80 sm:w-40 md:w-22" href="https://www.bps.go.id/publication/2019/03/29/686ec20b624d7ddedb92255a/ringkasan-eksekutif-hasil-pendataan-usaha-perusahaan-sensus-ekonomi-20" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">
-                <div class="card-publikasi-beranda shadow mt-2 mb-2 d-flex flex-column justify-content-end align-items-center" style="border-radius: 40px; background-image: url('/assets/images/cover-publikasi1.png'); background-size: cover; height: 50vh;">
-                    <div class="text-center bg-darkbrown text-white p-3 fw-800 text-sm" style="border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">Ringkasan Eksekutif Hasil Pendataan Usaha/Perusahaan Sensus Ekonomi 2016-Lanjutan Indonesia</div>
+            <a class="w-80 sm:w-40 md:w-22 text-reset text-decoration-none" href="https://www.bps.go.id/publication/2019/03/29/686ec20b624d7ddedb92255a/ringkasan-eksekutif-hasil-pendataan-usaha-perusahaan-sensus-ekonomi-20" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">
+                <div class="card-publikasi-beranda shadow mt-2 mb-2 d-flex flex-column justify-content-end align-items-center" style="border-radius: 25px; background-image: url('/assets/images/cover-publikasi1.png'); background-size: cover; height: 50vh;">
+                    <div class="text-center bg-broken-white text-black p-3 fw-800 text-sm" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">Ringkasan Eksekutif Hasil Pendataan Usaha/Perusahaan Sensus Ekonomi 2016-Lanjutan Indonesia</div>
                 </div>
             </a>
 
-            <a class="w-80 sm:w-40 md:w-22" href="https://www.bps.go.id/publication/2018/12/31/ca2523a255de747559ca6b31/hasil-pendataan-usaha-perusahaan-pertambangan-dan-penggalian-sensus-ekonomi-2016-lanjutan-indonesia.html" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="50">
-                <div class=" card-publikasi-beranda shadow mt-2 mb-2 d-flex flex-column justify-content-end align-items-center" style="border-radius: 40px; background-image: url('/assets/images/cover-publikasi2.png'); background-size: cover; height: 50vh;">
-                    <div class="text-center bg-darkbrown text-white p-3 fw-800 text-sm" style="border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">Hasil Pendataan Usaha/Perusahaan Pertambangan dan Penggalian SE 2016-Lanjutan Indonesia</div>
+            <a class="w-80 sm:w-40 md:w-22 text-reset text-decoration-none" href="https://www.bps.go.id/publication/2018/12/31/ca2523a255de747559ca6b31/hasil-pendataan-usaha-perusahaan-pertambangan-dan-penggalian-sensus-ekonomi-2016-lanjutan-indonesia.html" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="50">
+                <div class=" card-publikasi-beranda shadow mt-2 mb-2 d-flex flex-column justify-content-end align-items-center" style="border-radius: 25px; background-image: url('/assets/images/cover-publikasi2.png'); background-size: cover; height: 50vh;">
+                    <div class="text-center bg-broken-white text-black p-3 fw-800 text-sm" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">Hasil Pendataan Usaha/Perusahaan Pertambangan dan Penggalian SE 2016-Lanjutan Indonesia</div>
                 </div>
             </a>
 
-            <a class="d-none d-sm-block w-80 sm:w-40 md:w-22" href="https://www.bps.go.id/publication/2018/12/31/8f119930c76fef53e3a52037/hasil-pendataan-usaha-perusahaan-aktivitas-kesehatan-manusia-sensus-ekonomi-2016-lanjutan-indonesia.html" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
-                <div class=" card-publikasi-beranda shadow mt-2 mb-2 d-flex flex-column justify-content-end align-items-center" style="border-radius: 40px; background-image: url('/assets/images/cover-publikasi3.png'); background-size: cover; height: 50vh;">
-                    <div class="text-center bg-darkbrown text-white p-3 fw-800 text-sm" style="border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">Hasil Pendataan Usaha/Perusahaan Aktivitas Kesehatan Manusia SE 2016-Lanjutan Indonesia</div>
+            <a class="d-none d-sm-block w-80 sm:w-40 md:w-22 text-reset text-decoration-none" href="https://www.bps.go.id/publication/2018/12/31/8f119930c76fef53e3a52037/hasil-pendataan-usaha-perusahaan-aktivitas-kesehatan-manusia-sensus-ekonomi-2016-lanjutan-indonesia.html" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+                <div class=" card-publikasi-beranda shadow mt-2 mb-2 d-flex flex-column justify-content-end align-items-center" style="border-radius: 25px; background-image: url('/assets/images/cover-publikasi3.png'); background-size: cover; height: 50vh;">
+                    <div class="text-center bg-broken-white text-black p-3 fw-800 text-sm" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">Hasil Pendataan Usaha/Perusahaan Aktivitas Kesehatan Manusia SE 2016-Lanjutan Indonesia</div>
                 </div>
             </a>
 
-            <a class="d-none d-sm-block w-80 sm:w-40 md:w-22" href="https://www.bps.go.id/publication/2018/12/31/67e12fbb1b473ac0c8efeb1a/hasil-pendataan-usaha-perusahaan-konstruksi-sensus-ekonomi-2016-lanjutan-indonesia-.html" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
-                <div class=" card-publikasi-beranda shadow mt-2 mb-2 d-flex flex-column justify-content-end align-items-center" style="border-radius: 40px; background-image: url('/assets/images/cover-publikasi4.png'); background-size: cover; height: 50vh;">
-                    <div class="text-center bg-darkbrown text-white p-3 fw-800 text-sm" style="border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">Hasil Pendataan Usaha/Perusahaan Konstruksi Sensus Ekonomi 2016-Lanjutan Indonesia</div>
+            <a class="d-none d-sm-block w-80 sm:w-40 md:w-22 text-reset text-decoration-none" href="https://www.bps.go.id/publication/2018/12/31/67e12fbb1b473ac0c8efeb1a/hasil-pendataan-usaha-perusahaan-konstruksi-sensus-ekonomi-2016-lanjutan-indonesia-.html" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
+                <div class=" card-publikasi-beranda shadow mt-2 mb-2 d-flex flex-column justify-content-end align-items-center" style="border-radius: 25px; background-image: url('/assets/images/cover-publikasi4.png'); background-size: cover; height: 50vh;">
+                    <div class="text-center bg-broken-white text-black p-3 fw-800 text-sm" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">Hasil Pendataan Usaha/Perusahaan Konstruksi Sensus Ekonomi 2016-Lanjutan Indonesia</div>
                 </div>
             </a>
 
         </div>
         <div class="d-flex justify-content-center pb-4 pt-2">
-            <button class="btn btn-orange-carrot text-black hover:shadow-black mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill">Lihat Publikasi Lainnya</button>
+            <a class="btn btn-orange-carrot text-black hover:shadow-black mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill">Lihat Publikasi Lainnya</a>
 
         </div>
     </div>
@@ -224,7 +224,7 @@
             </div>
 
         </div>
-        <button class="btn btn-cognac hover:shadow-white mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill mb-4">Lihat Infografis Lainnya</button>
+        <a class="btn btn-cognac hover:shadow-white mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill mb-4">Lihat Infografis Lainnya</a>
     </div>
 </div>
 
