@@ -36,4 +36,16 @@ class LayananData extends BaseController
 
         return view('layanan-data/jumlahUsaha', $data);
     }
+
+    public function tabel1($tabel1)
+    {
+        $content = view('layanan-data/tabel1' . $tabel1);
+
+        $data = [
+            'title' => "SE 2016 | tabel1",
+            'content' => $content,
+        ];
+
+        return view('layanan-data/tabel1', $tabel1);
+    }
 }

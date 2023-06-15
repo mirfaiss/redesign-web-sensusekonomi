@@ -8,7 +8,7 @@
     <div class="container">
         <div class="content my-5">
             <form>
-                <fieldset disabled>
+                <!-- <fieldset disabled> -->
                     <div class="row mb-3">
                         <div class="mb-3 col">
                             <label for="disabledSelect" class="col-sm-2 form-label">Wilayah</label>
@@ -35,11 +35,11 @@
                         <div class="mb-3 col"></div>
                         
                         <div class="col-sm-8">
-                            <button type="submit" class="btn btn-primary">Tampilkan</button>
+                            <button type="submit" class="btn btn-primary" style="background-color:#492727; border-color: #492727;">Tampilkan</button>
                         </div>
                     </div>
 
-                </fieldset>
+                <!-- </fieldset> -->
             </form>
         </div>
     </div>

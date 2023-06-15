@@ -48,6 +48,8 @@ $routes->get('/produk-statistik/infografis', 'ProdukStatistik::index/infografis'
 */
 $routes->get('/layanan-data/tabel-topik', 'LayananData::index/tabelTopik');
 $routes->get('/layanan-data/tabel-topik/jumlah-usaha-tenaga-kerja-dan-balas-jasa', 'LayananData::index/jumlahUsaha');
+$routes->get('/layanan-data/tabel-topik/se2016/1/1', 'LayananData::index/tabel1');
+
 
 /*
  * --------------------------------------------------------------------
