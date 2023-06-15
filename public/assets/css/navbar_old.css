@@ -1,0 +1,13 @@
+.nav-custom > ul > li > a.nav-link {
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
+  border-radius: 10px;
+  padding-left: 1em;
+}
+
+.nav-custom > ul > li > a.nav-link:hover {
+  background-color: white;
+  color: #f0861a;
+  border-radius: 10px;
+}
