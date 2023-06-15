@@ -68,6 +68,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="stylesheet" href="/assets/css/beranda.css">
+    <link rel="stylesheet" href="/assets/css/se-lanjutan.css">
     <link rel="stylesheet" href="/assets/css/tentang-se.css">
   
     <!-- JS Custon -->
