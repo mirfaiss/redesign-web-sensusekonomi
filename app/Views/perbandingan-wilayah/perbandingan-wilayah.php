@@ -20,10 +20,10 @@
                 <label class="col-sm-2 col-form-label"><span class="d-block">Wilayah 1 :</span></label>
                 <div class="col-sm-10">
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>DKI Jakarta</option>
-                        <option value="Jawa Tengah">Jawa Tengah</option>
+                        <option selected>Jawa Tengah</option>
                         <option value="Jawa Timur">Jawa Timur</option>
-                        <option value="Jawa Barat">Jawa Barat</option>
+                        <option value="Jawa Tengah">Jawa Barat</option>
+                        <option value="Jawa Barat">DKI Jakarta</option>
                     </select>
                 </div>
             </div>
@@ -32,20 +32,27 @@
                 <label class="col-sm-2 col-form-label">Wilayah 2 :</label>
                 <div class="col-sm-10">
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>DKI Jakarta</option>
-                        <option value="Jawa Tengah">Jawa Tengah</option>
-                        <option value="Jawa Timur">Jawa Timur</option>
+                        <option selected>Jawa Timur</option>
+                        <option value="Jawa Timur">Jawa Tengah</option>
                         <option value="Jawa Barat">Jawa Barat</option>
+                        <option value="Jawa Tengah">DKI Jakarta</option>
                     </select>
+                </div>
+            </div>
+
+            <div class="px-5 mb-3 row pt-3">
+                <label class="col-sm-2"></label>
+                <div class="col-sm-10">
+                    <div class="btn btn-primary">Tampilkan</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container container-tabel p-3 mt-5 border border-4">
-        <div class="container my-2 p-3 table-responsive">
+    <div class="container container-tabel p-3 mt-3 border border-4">
+        <div class="container my-2 p-3 table-responsive bg-lightorange2">
             <table id="tabel-perbandingan" class="display" style="width:100%">
-                <thead>
+                <thead class="mt-3 bg-head-table" style="background-color: #f0861a;">
                     <tr>
                         <th>Indikator</th>
                         <th>Satuan</th>
@@ -55,9 +62,9 @@
                         <!-- <th>Salary</th> -->
                     </tr>
                 </thead>
-                <tfoot>
+                <tfoot class="bg-head-table">
                     <tr>
-                        <th>Name</th>
+                        <th>Indikator</th>
                         <th>Satuan</th>
                         <th>Head</th>
                         <th>Jawa Tengah</th>
