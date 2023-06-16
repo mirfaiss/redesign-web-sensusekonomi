@@ -55,15 +55,17 @@ ___
     - (P1) Produk Statistik – Publikasi & Infografis : Intan
     - (P1) Produk Statistik – Dokumen : Salsa
     - (P1) Tentang – Metadata : Fais
-    - (P1) Tentang – Media
-    - (P1) Tentang - Timeline
+    - (P1) Tentang – Media : Fais
+    - (P1) Tentang - Timeline : Fais
+    - (P1) Fitur FAQ : Shawna
 
 ## b. Prioritas 2
-    - (P2) Layanan Data – Tabel Topik
-    - (P2) Layanan Data – Perbandingan Antar Wilayah
+    - (P2) Layanan Data – Tabel Topik : Intan
+    - (P2) Layanan Data – Perbandingan Antar Wilayah : Salsa
 
 ## c. Prioritas 3
-    - (P3) SE2016 Lanjutan 
+    - (P3) SE2016 Lanjutan - Pendataan UMK UMB : Shawna
+    - (P3) SE2016 Lanjutan - Surat Dukungan : Shawna
 
-## d. Navbar & Footer : Shawna
+## d. Layout, Navbar, & Footer : Shawna
 

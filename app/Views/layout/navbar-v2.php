@@ -52,7 +52,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">SE2016 LANJUTAN</a>
+          <a class="nav-link" href="/SeLanjutan">SE2016 LANJUTAN</a>
         </li>
 
         <li class="nav-item dropdown">

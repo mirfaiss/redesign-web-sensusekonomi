@@ -43,6 +43,16 @@
         });
     </script>
 
-    </body>
 
-    </html>
+    <!-- JS for Back to Top & FAQ -->
+    <script src="/assets/js/utility-btn.js"></script>
+
+    <!-- Tooltip -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>

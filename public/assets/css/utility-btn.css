@@ -1,0 +1,43 @@
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fac48d;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+#back-to-top-btn:hover {
+  background-color: #fce6c4;
+  outline: 2px solid black;
+}
+
+
+#faq-btn {
+  position: fixed;
+  bottom: 75px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fac48d;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+#faq-btn:hover {
+  background-color: #fce6c4;
+  outline: 2px solid black;
+}
