@@ -5,9 +5,10 @@
     <!-- <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Tabel Topik</strong></h1> -->
 
     <!-- semuanya template -->
-    <!-- judul -->
+
     <section class="py-3">
         <div class="container">
+            <!-- jenis visulisasi -->
             <div class="row">
                 <div class="col-lg mb-2 mb-lg-0align-self-center"></div>
                 <div class="col-lg-auto align-self-center">
@@ -731,7 +732,17 @@
                                 <small class="font-weight-light">Klik pada bar chart untuk melihat data disagregasi level berikutnya</small>
                             </center>
 
-                            <div id="chart" style="min-height: 600px;"></div>
+                            <div id="chart" style="min-height: 600px;">
+                                <div class="container-fluid pt-5 pb-5 mt-4">
+                                    <div class=" shadow container-md chart-container p-4 position-relative md:w-80" style="aspect-ratio: 2; border-radius: 40px;" data-aos="fade-up" data-aos-duration="1500">
+
+
+
+                                        <canvas id="myChart"></canvas>
+                                    </div>
+                                    <script src="assets/js/chart-beranda.js"></script>
+                                </div>
+                            </div>
                             <br />
                             <div class="text-center">
                                 <div class="btn-group">
