@@ -14,13 +14,13 @@
                     <div class="btn-group col col-md-auto px-0">
                         <ul class="nav nav-pills nav-fill col col-md-auto px-0">
                             <li class="nav-item">
-                                <a href="/layanan-data/tabel-topik/se2016/1/1" class="nav-link active text-black" data-toggle="tab" data-target="#tab-tabel" style="background-color: #FF9E3C;">Tabel</a>
+                                <a href="#" class="nav-link active text-black" data-toggle="tab" data-target="#tab-tabel" style="background-color: #FF9E3C;">Tabel</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/layanan-data/tabel-topik/se2016/1/chart" class="nav-link text-black" data-toggle="tab" data-target="#tab-grafik">Grafik</a>
+                                <a href="#" class="nav-link text-black" data-toggle="tab" data-target="#tab-grafik">Grafik</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/layanan-data/tabel-topik/se2016/1/peta" class="nav-link text-black" data-toggle="tab" data-target="#tab-peta">Peta</a>
+                                <a href="#" class="nav-link text-black" data-toggle="tab" data-target="#tab-peta">Peta</a>
                             </li>
                         </ul>
                     </div>
@@ -808,64 +808,51 @@
 
                     <!-- metadata  -->
                     <div class="card bg-light mb-4">
-                        <div class="card-header collapsed" data-toggle="collapse" data-target="#indikator-kegiatan" style="background: #ccffcc">
-                            <i class="bi bi-plus-circle bi-bw"></i> Metadata Indikator
+                        <div class="card-header" data-toggle="collapse" data-target="#indikator-kegiatan" style="background: #ccffcc">
+                            <i class="bi bi-dash-circle-fill bi-bw"></i> Metadata Indikator
                         </div>
-                        <div id="indikator-kegiatan" class="card-body font-small collapse">
+                        <div id="indikator-kegiatan" class="card-body font-small collapse show ">
                             <p>
                                 <b>Nama</b><br />
 
-                                Jumlah Penduduk <br />
+                                Banyak Usaha <br />
                             </p>
                             <p>
                                 <b>Definisi</b><br />
 
-                                Ukuran absolut dari penduduk, dinyatakan dalam jiwa <br />
+                                Banyaknya usaha yang tercatat <br />
                             </p>
                             <p>
                                 <b>Satuan</b><br />
 
-                                Jiwa <br />
+                                Unit usaha <br />
                             </p>
                             <p>
                                 <b>Mekanisme perhitungan</b><br />
 
-                                Penjumlahan dari setiap individu <br />
+                                Penjumlahan dari tiap unit usaha <br />
                             </p>
                             <p>
                                 <b>Manfaat</b><br />
 
-                                Sebagai dasar perencanaan pembangunan di berbagai bidang <br />
+                                Sebagai dasar perencanaan pembangunan di berbagai bidang, terutama ekonomi<br />
                             </p>
                             <p>
                                 <b>Interpretasi</b><br />
 
-                                Semakin tinggi angka semakin banyak jumlah penduduk <br />
+                                Semakin tinggi angka semakin banyak jumlah usaha <br />
                             </p>
-                            <p>
-                                <b>Frekuensi update</b><br />
 
-                                Lebih dari Dua Tahunan <br />
-                            </p>
                             <p>
                                 <b>Referensi</b><br />
 
                                 Badan Pusat Statistik <br />
                             </p>
-                            <p>
-                                <b>Subyek</b><br />
 
-                                Kependudukan dan migrasi <br />
-                            </p>
                             <p>
                                 <b>Ukuran</b><br />
 
                                 Jumlah <br />
-                            </p>
-                            <p>
-                                <b>Konsep</b><br />
-
-                                <b>Penduduk</b> :<br />Penduduk adalah semua orang yang berdomisili di wilayah Negara Kesatuan Republik Indonesia selama 1 tahun atau lebih dan atau mereka yang berdomisili kurang dari 1 tahun tetapi bertujuan untuk menetap selama 1 tahun atau lebih <br />
                             </p>
 
                         </div>

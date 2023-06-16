@@ -14,10 +14,10 @@
                     <div class="btn-group col col-md-auto px-0">
                         <ul class="nav nav-pills nav-fill col col-md-auto px-0">
                             <li class="nav-item">
-                                <a href="/layanan-data/tabel-topik/se2016/1/1" class="nav-link active text-black" data-toggle="tab" data-target="#tab-tabel" style="background-color: #FF9E3C;">Tabel</a>
+                                <a href="/layanan-data/tabel-topik/se2016/1/1" class="nav-link text-black" data-toggle="tab" data-target="#tab-tabel">Tabel</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/layanan-data/tabel-topik/se2016/1/chart" class="nav-link text-black" data-toggle="tab" data-target="#tab-grafik">Grafik</a>
+                                <a href="/layanan-data/tabel-topik/se2016/1/chart" class="nav-link active text-black" data-toggle="tab" data-target="#tab-grafik" style="background-color: #FF9E3C;">Grafik</a>
                             </li>
                             <li class="nav-item">
                                 <a href="/layanan-data/tabel-topik/se2016/1/peta" class="nav-link text-black" data-toggle="tab" data-target="#tab-peta">Peta</a>
@@ -32,7 +32,7 @@
                 <div class="col-lg">
                     <div class="tab-content">
                         <!-- tabel -->
-                        <div id="tab-tabel" class="tab-pane active">
+                        <div id="tab-tabel" class="tab-pane">
                             <div class="row mb-4 justify-content-center">
                                 <div class="col-lg mb-2 mb-lg-0align-self-center">
                                     <div class="row mx-n1">
@@ -722,7 +722,7 @@
                         </div>
 
                         <!-- chart -->
-                        <div id="tab-grafik" class="tab-pane">
+                        <div id="tab-grafik" class="tab-pane active">
 
                             <center>
                                 <h4>

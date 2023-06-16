@@ -50,15 +50,39 @@ class LayananData extends BaseController
     }
 
 
-    public function tabel2($tabel2)
+    public function metadata($metadata)
     {
-        $content = view('layanan-data/tabel' . $tabel2);
+        $content = view('layanan-data/tabel' . $metadata);
 
         $data = [
             'title' => "SE 2016 | tabel1",
             'content' => $content,
         ];
 
-        return view('layanan-data/tabel2', $tabel2);
+        return view('layanan-data/metadata', $metadata);
+    }
+
+    public function chart($chart)
+    {
+        $content = view('layanan-data/tabel' . $chart);
+
+        $data = [
+            'title' => "SE 2016 | chart",
+            'content' => $content,
+        ];
+
+        return view('layanan-data/chart', $chart);
+    }
+
+    public function peta($peta)
+    {
+        $content = view('layanan-data/tabel' . $peta);
+
+        $data = [
+            'title' => "SE 2016 | peta",
+            'content' => $content,
+        ];
+
+        return view('layanan-data/chart', $peta);
     }
 }
