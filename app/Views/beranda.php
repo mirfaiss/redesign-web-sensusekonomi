@@ -112,16 +112,17 @@
 <!-- LAYANAN DATA -->
 <div class="container-fluid bg-lightorange pt-5 pb-5 shadow-sm">
     <h3 class="text-center fw-700 pb-4">Layanan Data</h3>
+
     <div class="container d-flex flex-column flex-sm-row flex-wrap gap-2 justify-content-around">
-        <a href="#" class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-column gap-2 w-full sm:w-40 md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="border-radius:30px;">
+        <button class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-column gap-2 w-full sm:w-40 md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="border-radius:30px;">
             <img class="w-20 sm:w-30 md:w-40" src="/assets/images/table 2.png" alt="vector image">
             <div class="fw-600 md:text-center text-base md:text-1xl">Tabel Topik</div>
-        </a>
+        </button>
         
-        <a href="#" class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-column gap-2 w-full sm:w-40 md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="border-radius:30px">
+        <button onclick="window.location.href='/perbandingan-wilayah'" class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-column gap-2 w-full sm:w-40 md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="border-radius:30px">
             <img class="w-20 sm:w-30 md:w-40" src="/assets/images/perb antar wilayah 4.png" alt="vector image">
             <div class="fw-600 md:text-center text-base md:text-1xl">Perbandingan Antar Wilayah</div>
-        </a>
+        </button>
 
     </div>
 </div>

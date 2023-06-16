@@ -32,6 +32,7 @@ $routes->setAutoRoute(true);
 
 $routes->get('/', 'Beranda::index');
 
+$routes->get('/perbandingan-wilayah', 'Beranda::perbandinganWilayah');
 $routes->get('/tentang-se2016/metadata', 'Tentang::index/Metadata');
 $routes->get('/tentang-se2016/metadata/(:any)', 'Tentang::metadata/$1');
 $routes->get('/tentang-se2016/media', 'Tentang::index/Media');
