@@ -2,11 +2,11 @@
 
 <?= $this->section('content'); ?>
 
-<div class="container">
+<div class="container my-5">
     <div class="container my-5">
         <h1><strong>Perbandingan Antar Wilayah</strong></h1>
     </div>
-    <div class="container my-5">
+    <div class="container mt-5">
 
         <div class="container">
             <div class="mx-5 alert alert-warning" role="alert">
@@ -42,8 +42,8 @@
         </div>
     </div>
 
-    <div class="container container-tabel">
-        <div class="container my-5 ">
+    <div class="container container-tabel p-3 mt-5 border border-4">
+        <div class="container my-2 p-3 table-responsive">
             <table id="tabel-perbandingan" class="display" style="width:100%">
                 <thead>
                     <tr>

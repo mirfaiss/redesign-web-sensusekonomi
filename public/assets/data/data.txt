@@ -2,75 +2,75 @@
   "data": [
     {
       "id": "1",
-      "name": "Tiger Nixon",
-      "position": "System Architect",
-      "start_date": "2011/04/25",
+      "name": "Jumlah UMK UMB",
+      "satuan": "Usaha",
+      "jatim": "4.618.283",
       "head": "Jumlah Usaha",
-      "extn": "5421"
+      "jateng": "4.139.590"
     },
     {
       "id": "2",
-      "name": "Garrett Winters",
-      "position": "Accountant",
-      "start_date": "2011/07/25",
+      "name": "Jumlah Tenaga Kerja UMK",
+      "satuan": "Orang",
+      "jatim": "10.906.153",
       "head": "Jumlah Tenaga Kerja",
-      "extn": "8422"
+      "jateng": "8.942.051"
     },
     {
       "id": "3",
-      "name": "Ashton Cox",
-      "position": "Junior Technical Author",
-      "start_date": "2009/01/12",
+      "name": "Balas Jasa dan Upah Pekerja UMB",
+      "satuan": "Rupiah",
+      "jatim": "115.728.784.008.383",
       "head": "Balas Jasa dan Upah Pekerja",
-      "extn": "1562"
+      "jateng": "61.915.960.016.587"
     },
     {
       "id": "4",
-      "name": "Cedric Kelly",
-      "position": "Senior Javascript Developer",
-      "start_date": "2012/03/29",
+      "name": "Jumlah UMB",
+      "satuan": "Usaha",
+      "jatim": "48.461",
       "head": "Jumlah Usaha",
-      "extn": "6224"
+      "jateng": "33.673"
     },
     {
       "id": "5",
-      "name": "Airi Satou",
-      "position": "Accountant",
-      "start_date": "2008/11/28",
+      "name": "Jumlah Tenaga Kerja UMB",
+      "satuan": "Orang",
+      "jatim": "2.757.461",
       "head": "Jumlah Tenaga Kerja",
-      "extn": "5407"
+      "jateng": "1.800.996"
     },
     {
       "id": "6",
-      "name": "Brielle Williamson",
-      "position": "Integration Specialist",
-      "start_date": "2012/12/02",
+      "name": "Balas Jasa dan Upah Pekerja UMK UMB",
+      "satuan": "Rupiah",
+      "jatim": "181.359.900.973.224",
       "head": "Balas Jasa dan Upah Pekerja",
-      "extn": "4804"
+      "jateng": "116.615.039.671.550"
     },
     {
       "id": "7",
-      "name": "Herrod Chandler",
-      "position": "Sales Assistant",
-      "start_date": "2012/08/06",
+      "name": "Balas Jasa dan Upah Pekerja UMK",
+      "satuan": "Rupiah",
+      "jatim": "65.631.116.964.841",
       "head": "Balas Jasa dan Upah Pekerja",
-      "extn": "9608"
+      "jateng": "54.699.079.654.963"
     },
     {
       "id": "8",
-      "name": "Rhona Davidson",
-      "position": "Integration Specialist",
-      "start_date": "2010/10/14",
+      "name": "Jumlah Tenaga Kerja UMK UMB",
+      "satuan": "Orang",
+      "jatim": "13.663.614",
       "head": "Jumlah Tenaga Kerja",
-      "extn": "6200"
+      "jateng": "10.743.047"
     },
     {
       "id": "9",
-      "name": "Colleen Hurst",
-      "position": "Javascript Developer",
-      "start_date": "2009/09/15",
+      "name": "Jumlah UMK",
+      "satuan": "Usaha",
+      "jatim": "4.569.822",
       "head": "Jumlah Usaha",
-      "extn": "2360"
+      "jateng": "4.105.917"
     }
   ]
 }

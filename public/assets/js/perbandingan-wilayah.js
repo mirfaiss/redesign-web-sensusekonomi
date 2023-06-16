@@ -3,10 +3,10 @@ $(document).ready(function () {
         ajax: 'http://localhost:8080/assets/data/data.txt',
         columns: [
             { data: 'name' },
-            { data: 'position' },
+            { data: 'satuan' },
             { data: 'head' },
-            { data: 'extn' },
-            { data: 'start_date' },
+            { data: 'jateng' },
+            { data: 'jatim' },
         ],
         orderFixed: [[2, 'asc']],
         rowGroup: {
@@ -15,6 +15,12 @@ $(document).ready(function () {
         columnDefs: [{
             targets: [2],
             visible: false
+        }, {
+            targets: [3, 4],
+            className: 'dt-body-right'
+        }, {
+            targets: [0, 1, 2, 3, 4],
+            className: ["dt-head-center"]
         }]
     });
 });
