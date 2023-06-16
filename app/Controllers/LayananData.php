@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Controllers;
-            
+
 class LayananData extends BaseController
 {
     public function index($content)
@@ -39,7 +39,7 @@ class LayananData extends BaseController
 
     public function tabel1($tabel1)
     {
-        $content = view('layanan-data/tabel1' . $tabel1);
+        $content = view('layanan-data/tabel' . $tabel1);
 
         $data = [
             'title' => "SE 2016 | tabel1",
@@ -47,5 +47,18 @@ class LayananData extends BaseController
         ];
 
         return view('layanan-data/tabel1', $tabel1);
+    }
+
+
+    public function tabel2($tabel2)
+    {
+        $content = view('layanan-data/tabel' . $tabel2);
+
+        $data = [
+            'title' => "SE 2016 | tabel1",
+            'content' => $content,
+        ];
+
+        return view('layanan-data/tabel2', $tabel2);
     }
 }

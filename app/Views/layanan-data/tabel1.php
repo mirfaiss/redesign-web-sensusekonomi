@@ -31,6 +31,7 @@
             <div class="row">
                 <div class="col-lg">
                     <div class="tab-content">
+                        <!-- tabel -->
                         <div id="tab-tabel" class="tab-pane active">
                             <div class="row mb-4 justify-content-center">
                                 <div class="col-lg mb-2 mb-lg-0align-self-center">
@@ -719,6 +720,8 @@
                                 </table>
                             </div>
                         </div>
+
+                        <!-- chart -->
                         <div id="tab-grafik" class="tab-pane">
 
                             <center>
@@ -803,11 +806,12 @@
                     </div>
                     <br />
 
+                    <!-- metadata  -->
                     <div class="card bg-light mb-4">
                         <div class="card-header" data-toggle="collapse" data-target="#indikator-kegiatan" style="background: #ccffcc">
-                            <i class="fa fa-plus-circle fa-fw"></i> Metadata Indikator
+                            <i class="bi bi-plus-circle bi-bw"></i> Metadata Indikator
                         </div>
-                        <div id="indikator-kegiatan" class="card-body font-small collapse">
+                        <div id="indikator-kegiatan" class="card-body font-small">
                             <p>
                                 <b>Nama</b><br />
 
@@ -867,9 +871,10 @@
                         </div>
                     </div>
 
+                    <!-- klasifikasi -->
                     <div class="card bg-light mb-4">
                         <div class="card-header" data-toggle="collapse" data-target="#deskripsi-klasifikasi" style="background: #ccccff">
-                            <i class="fa fa-plus-circle fa-fw"></i> Deskripsi Klasifikasi
+                            <i class="bi bi-plus-circle bi-fw"></i> Deskripsi Klasifikasi
                         </div>
                         <div id="deskripsi-klasifikasi" class="card-body font-small collapse">
 
@@ -913,7 +918,8 @@
                         </div>
                     </div>
 
-                    <div class="row row-share">
+                    <!-- share medsos -->
+                    <!-- <div class="row row-share">
                         <div class="col-auto align-self-center">
                             Bagikan :
                         </div>
@@ -933,10 +939,243 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
+
+    <script src="/assets/js/layananData/select2.min.js"></script>
+    <script src="/assets/js/layananData/datatables.min.js"></script>
+    <script src="/assets/js/layananData/slick.min.js"></script>
+    <script src="/assets/js/layananData/app.js"></script>
+    <script src="/assets/js/layananData/jquery.fancybox.min.js"></script>
+    <script src="/assets/js/layananData/sweetalert.js"></script>
+
+
+
+
+
+    <!-- <script>
+        $(function() {
+            new ClipboardJS(".urlcopy", {
+                text: function(trigger) {
+                    return trigger.getAttribute('data-url');
+                }
+            });
+
+            $('.select2').select2({
+                theme: "bootstrap"
+            });
+        });
+
+
+        $(document).ready(function() {
+            $('#datatable').DataTable({
+                'paging': false,
+                'searching': false,
+                'info': false,
+                'language': {
+                    "decimal": ",",
+                    "thousands": "."
+                }
+            });
+
+            Highcharts.setOptions({
+                lang: {
+                    thousandsSep: ','
+                }
+            })
+        });
+
+
+        $(function() {
+
+            Highcharts.chart('chart', {
+                chart: {
+                    type: 'column',
+                    height: 600,
+                    width: 600,
+                    marginTop: 50
+                },
+                exporting: {
+                    buttons: {
+                        contextButton: {
+                            align: 'left',
+                        }
+                    }
+                },
+                title: {
+                    text: ''
+                },
+                xAxis: [{
+                    type: 'category',
+                }],
+                legend: {
+                    enabled: false,
+                },
+                yAxis: {
+                    title: {
+                        text: null
+                    },
+                    labels: {
+                        formatter: function() {
+                            return Highcharts.numberFormat(Math.abs(this.value), 0);
+                        }
+                    }
+                },
+                credits: false,
+                plotOptions: {
+
+                },
+
+                tooltip: {
+                    formatter: function() {
+                        let d = this.point.drilldown;
+                        let s = '';
+                        if (d)
+                            s = '<br/><br/>' + '<small class="text-muted">Klik untuk lebih detail</small>'
+                        return '<b>' + this.series.name + '</b><br/>' +
+                            this.key + ' : ' + Highcharts.numberFormat(Math.abs(this.point.y), 0) + s;
+                    }
+                },
+
+                series: [{
+                    "name": "",
+                    "data": [{
+                        "name": "-",
+                        "y": {
+                            "": null
+                        },
+                        "drilldown": null
+                    }]
+                }],
+                drilldown: {
+                    series: []
+                }
+            });
+
+            var chart = $('#chart').highcharts(),
+                updateChart = function(typeOfChart, ifInvert, thisButton, minW = null, minH = null) {
+                    chart.update({
+                        chart: {
+                            type: typeOfChart,
+                            inverted: ifInvert,
+                            height: minH,
+                            width: minW
+                        }
+                    });
+                };
+
+            $('#bar').on('click', function() {
+                $(this).addClass('active').siblings().removeClass('active');
+                updateChart('bar', true, this, 1000, 600);
+            });
+
+            $('#column').on('click', function() {
+                $(this).addClass('active').siblings().removeClass('active');
+                updateChart('column', false, this, 1000, 600);
+            });
+        });
+
+
+        $(function() {
+            $('#klasifikasi').load("/topik/list_klasifikasi" + '/' + 3, function() {
+                reload_map();
+            });
+        });
+
+        $('.select2').select2({
+            theme: "bootstrap"
+        });
+
+        function reload_map() {
+            $('#mapContainer').hide();
+            $('#spinner').show();
+
+            var data = {
+                item_1: $('select[name=item_1]').val(),
+                item_2: $('select[name=item_2]').val(),
+                item_3: $('select[name=item_3]').val(),
+                item_4: $('select[name=item_4]').val()
+            };
+            $('#mapContainer').load("/topik/map" + '/' + 3, data, function() {
+                $('#spinner').hide();
+                $('#mapContainer').show();
+            });
+        }
+
+        $(document).on('change', '#color-picker', function() {
+            $('#mapContainer').hide();
+            $('#spinner').show();
+
+            var data = {
+                item_1: $('select[name=item_1]').val(),
+                item_2: $('select[name=item_2]').val(),
+                item_3: $('select[name=item_3]').val(),
+                item_4: $('select[name=item_4]').val(),
+                warna: $("input:radio[name='Wilayah[color_map]']:checked").val()
+            };
+            $('#mapContainer').load("/topik/map" + '/' + 3, data, function() {
+                $('#spinner').hide();
+                $('#mapContainer').show();
+            });
+        });
+
+
+        $(document).on('pjax:send', function() {
+            $('#loading').show();
+        });
+
+        $(document).on('pjax:complete', function(xhr, textStatus, options) {
+            $('.btn_delete_all').hide();
+            if (options == 'error') {
+                window.location.reload();
+            }
+            if (textStatus.getResponseHeader('redirect-url')) {
+                $.pjax({
+                    url: textStatus.getResponseHeader('redirect-url'),
+                    container: '#pjax-table',
+                    method: 'POST'
+                });
+                return false;
+            } else {
+                $('#loading').hide();
+            }
+
+            $('.tooltips').tooltip({
+                animation: false
+            });
+        });
+
+        $('#pjax-search').submit(function() {
+            $.pjax.reload({
+                container: '#pjax-table',
+                type: 'POST',
+                data: $(this).serialize()
+            });
+            return false;
+        });
+
+        $('.search').change(function() {
+            $('#pjax-search').submit();
+            return false;
+        });
+
+        $('.ubah_tahun').change(function() {
+            $('#data-tahun').submit();
+            location.reload({
+                container: '.container',
+                type: 'POST',
+                data: $(this).serialize()
+            });
+            return false;
+        });
+
+        $('#fox').on('click', function(e) {
+            e.preventDefault();
+            $('#linkgenerate-verifycode-image').yiiCaptcha('refresh');
+        })
+    </script> -->
 </div>
 <?= $this->endSection(); ?>

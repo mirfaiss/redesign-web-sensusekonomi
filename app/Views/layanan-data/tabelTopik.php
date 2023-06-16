@@ -13,7 +13,7 @@
                     <form id="dataset-search">
                         <div class="input-group field-datasetsearch-keywor">
                             <input type="text" id="datasetsearch-keyword" class="input-group-append form-control" name="keyword" placeholder="Cari dataset" style="width:200px;">
-                            <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i>
+                            <button class="btn text-black" type="submit" style="background-color:#FF9E3C; border-color: #f0861a;"><i class="bi bi-search"></i>
                             </button>
                         </div>
                     </form>
