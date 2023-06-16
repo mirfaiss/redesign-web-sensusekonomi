@@ -50,7 +50,7 @@
     </div>
 
     <div class="container container-tabel p-3 mt-3 border border-4">
-        <div class="container my-2 p-3 table-responsive bg-lightorange2">
+        <div class="container p-3 table-responsive bg-lightorange2">
             <table id="tabel-perbandingan" class="display pt-4" style="width:100%">
                 <thead class="mt-3 bg-head-table" style="background-color: #f0861a;">
                     <tr>
