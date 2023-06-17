@@ -46,7 +46,7 @@
             LAYANAN DATA
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Tabel Topik</a></li>
+            <li><a class="dropdown-item" href="/layanan-data/tabel-topik">Tabel Topik</a></li>
             <li><a class="dropdown-item" href="/perbandingan-wilayah">Perbandingan Antar Wilayah</a></li>
           </ul>
         </li>
@@ -60,9 +60,9 @@
             PRODUK STATISTIK
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Publikasi</a></li>
-            <li><a class="dropdown-item" href="#">Infografis</a></li>
-            <li><a class="dropdown-item" href="#">Dokumen</a></li>
+            <li><a class="dropdown-item" href="/produk-statistik/publikasi">Publikasi</a></li>
+            <li><a class="dropdown-item" href="/produk-statistik/infografis">Infografis</a></li>
+            <li><a class="dropdown-item" href="/produk-statistik/dokumen">Dokumen</a></li>
           </ul>
         </li>
 

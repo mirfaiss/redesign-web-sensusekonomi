@@ -90,6 +90,7 @@
     <!-- ChartJs -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+
     <!-- CSS Custom -->
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/navbar.css">
@@ -97,10 +98,14 @@
     <link rel="stylesheet" href="/assets/css/se-lanjutan.css">
     <link rel="stylesheet" href="/assets/css/tentang-se.css">
     <link rel="stylesheet" href="/assets/css/tentang-se-media.css">
+    <link rel="stylesheet" href="/assets/css/produkStatistik.css">
+    <link rel="stylesheet" href="/assets/css/layananData.css">
     <link rel="stylesheet" href="/assets/css/utility-btn.css">
+  
   
     <!-- JS Custon -->
     <script src="/assets/js/tentang-se.js"></script>
+
 
 </head>
 

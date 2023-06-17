@@ -21,6 +21,7 @@ $routes->set404Override();
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
 $routes->setAutoRoute(true);
 
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -39,6 +40,27 @@ $routes->get('/tentang-se2016/media', 'Tentang::index/Media');
 $routes->get('/tentang-se2016/timeline', 'tentang::index/Timeline');
 
 
+
+/* --------------------------------------------------------------------
+* Produk Statistik 
+* --------------------------------------------------------------------
+*/
+$routes->get('/produk-statistik/publikasi', 'ProdukStatistik::index/publikasi');
+$routes->get('/produk-statistik/dokumen', 'ProdukStatistik::index/dokumen');
+$routes->get('/produk-statistik/dokumen/(:any)', 'ProdukStatistik::dokumen/$1');
+$routes->get('/produk-statistik/infografis', 'ProdukStatistik::index/infografis');
+
+
+/* --------------------------------------------------------------------
+* Layanan data
+* --------------------------------------------------------------------
+*/
+$routes->get('/layanan-data/tabel-topik', 'LayananData::index/tabelTopik');
+$routes->get('/layanan-data/tabel-topik/jumlah-usaha-tenaga-kerja-dan-balas-jasa', 'LayananData::index/jumlahUsaha');
+$routes->get('/layanan-data/tabel-topik/se2016/1/1', 'LayananData::index/tabel1');
+$routes->get('/layanan-data/tabel-topik/se2016/1/metadata', 'LayananData::index/metadata');
+$routes->get('/layanan-data/tabel-topik/se2016/1/chart', 'LayananData::index/chart');
+$routes->get('/layanan-data/tabel-topik/se2016/1/peta', 'LayananData::index/peta');
 
 /*
  * --------------------------------------------------------------------

@@ -8,6 +8,7 @@ body {
   /* background-color: #F5F5F5; */
 }
 
+
 /* Shadow */
 .shadow-white {
   box-shadow: 1px 0.5px 10px #f5f5f5;
@@ -700,3 +701,4 @@ body {
     width: 100%;
   }
 }
+
