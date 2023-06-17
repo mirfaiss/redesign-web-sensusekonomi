@@ -29,11 +29,15 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+
+$routes->get('/', 'Beranda::index');
+
+$routes->get('/perbandingan-wilayah', 'Beranda::perbandinganWilayah');
 $routes->get('/tentang-se2016/metadata', 'Tentang::index/Metadata');
 $routes->get('/tentang-se2016/metadata/(:any)', 'Tentang::metadata/$1');
 $routes->get('/tentang-se2016/media', 'Tentang::index/Media');
 $routes->get('/tentang-se2016/timeline', 'tentang::index/Timeline');
+
 
 
 /*
