@@ -278,11 +278,11 @@
                                     <img src="/assets/images/gallery/pengolahan/SE2016OLAH5.jpg" class="img-fluid img-rounded" alt="">
                                 </a>
                             </div>
-                            <div class="col-lg-4 item col-md-6 portfolio-item filter-pengolahan">
+                            <!-- <div class="col-lg-4 item col-md-6 portfolio-item filter-pengolahan">
                                 <a href="/assets/images/gallery/pengolahan/SE2016OLAH4.jpg" data-gallery="portfolioGallery" class="fancy-box" data-fancybox="galleryE" title="Pengolahan 04" data-caption="Pengolahan 04">
                                     <img src="/assets/images/gallery/pengolahan/SE2016OLAH4.jpg" class="img-fluid img-rounded" alt="">
                                 </a>
-                            </div>
+                            </div> -->
                             <div class="col-lg-4 item col-md-6 portfolio-item filter-pengolahan">
                                 <a href="/assets/images/gallery/pengolahan/SE2016OLAH6.jpg" data-gallery="portfolioGallery" class="fancy-box" data-fancybox="galleryE" title="Pengolahan 06" data-caption="Pengolahan 06">
                                     <img src="/assets/images/gallery/pengolahan/SE2016OLAH6.jpg" class="img-fluid img-rounded" alt="">
