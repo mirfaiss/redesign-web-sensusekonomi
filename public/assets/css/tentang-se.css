@@ -22,6 +22,16 @@
     color: white;
 }
 
+.btn-readmore {
+    transition: ease 0.3s;
+    background-color: #FF9E3C;
+    color: white;
+}
+
+.btn-readmore:hover {
+    background-color: #F97137;
+}
+
 .bg-coba {
     background-color: #ECE5C7;
     color: black;
