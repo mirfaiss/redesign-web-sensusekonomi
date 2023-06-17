@@ -4,7 +4,7 @@
 <div class="container">
     <h1 class="my-4" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Timeline</strong></h1>
 
-    <div class="container mt-2 mb-5 bg-timeline timeline timeline-container">
+    <div class="container my-5 bg-timeline timeline timeline-container">
         <div class="ag-timeline-block">
             <div class="ag-timeline_title-box">
                 <!-- <div class="ag-timeline_tagline">Timeline</div>
