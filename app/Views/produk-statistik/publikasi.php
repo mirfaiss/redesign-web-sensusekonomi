@@ -279,10 +279,8 @@
                     </div>
                 </div>
 
-                <div class="row mb-5">
-                    <div class="col-12 d-flex flex-md-row justify-content-end align-items-end gap-4 flex-wrap">
-                        <button type="submit" class="btn btn-primary bottom-0 end-0 text-black" style="background-color: #FF9E3C; border-color:white">Lainnya</button>
-                    </div>
+                <div class="d-flex justify-content-center pb-4 pt-2">
+                    <a class="btn text-black hover:shadow-black mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill" style="background-color: #FF9E3C" ;>Lihat publikasi Lainnya</a>
                 </div>
             </div>
         </div>
