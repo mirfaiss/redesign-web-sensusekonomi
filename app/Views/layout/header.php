@@ -15,6 +15,10 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+    <!--tentang-se-media-v2 -->
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
     <!-- Library JS
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
@@ -24,8 +28,21 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/rowgroup/1.3.1/css/rowGroup.dataTables.min.css">
 
+
     <!-- AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- FancyBox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+    <!-- Vendor -->
+    <link href="/assets/vendorx/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendorx/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/assets/vendorx/aos/aos.css" rel="stylesheet">
+    <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
 
     <!-- Fonts Google -->
 
@@ -79,12 +96,11 @@
     <link rel="stylesheet" href="/assets/css/beranda.css">
     <link rel="stylesheet" href="/assets/css/se-lanjutan.css">
     <link rel="stylesheet" href="/assets/css/tentang-se.css">
-
+    <link rel="stylesheet" href="/assets/css/tentang-se-media.css">
     <link rel="stylesheet" href="/assets/css/utility-btn.css">
   
     <!-- JS Custon -->
     <script src="/assets/js/tentang-se.js"></script>
-
 
 </head>
 

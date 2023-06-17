@@ -37,11 +37,24 @@
 
     <!-- JS for AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/assets/vendorx/purecounter/purecounter_vanilla.js"></script>
+    <script src="/assets/vendorx/aos/aos.js"></script>
+    <!-- <script src="/assets/vendorx/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="/assets/js/glightbox.min.js"></script>
+    <script src="/assets/vendorx/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/assets/vendorx/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/vendorx/waypoints/noframework.waypoints.js"></script>
+    <!-- <script src="/assets/vendorx/php-email-form/validate.js"></script> -->
     <script>
         AOS.init({
             once: true
         });
     </script>
+
+
+    <!-- tentang-se-media-v2 -->
+    <script src="/assets/js/tentang-se.js"></script>
+  
 
 
     <!-- JS for Back to Top & FAQ -->

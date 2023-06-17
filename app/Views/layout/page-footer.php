@@ -34,6 +34,7 @@
         </div>
     </div>
 
+
     <div class="col-12 d-block d-md-none bg-light mt-3" style="height: 1px;"></div>
 
     <div class="text-light col-12 col-md-3 p-2 d-flex flex-column flex-sm-row flex-md-column gap-2">
@@ -49,6 +50,7 @@
                 <a class="text-reset" href="https://www.facebook.com/bpsstatistics" target="_blank" aria-label="medsos-link"><i class="bi bi-facebook text-1xl sm:text-2xl md:text-3xl"></i></a>
                 <a class="text-reset" href="https://www.youtube.com/c/BPSStatistics/videos%20target=" target="_blank" aria-label="medsos-link"><i class="bi bi-youtube text-1xl sm:text-2xl md:text-3xl"></i></a>
             </div>
+
         </div>
     </div>
 
@@ -62,4 +64,6 @@
         <a href="#" class="text-decoration-none text-light"><small class="fw-bolder">Dokumen Lainnya</small></a>
     </div>
 </div>
+
 </div>
+

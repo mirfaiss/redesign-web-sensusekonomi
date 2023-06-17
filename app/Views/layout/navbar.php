@@ -9,7 +9,7 @@
         </i>
       </a>
     </div>
-  
+
     <img src="/assets/images/logo-se2016.png" alt="Logo-Sensus-Ekonomi-2016" style="max-width: 12%;" class="d-inline-block align-text-center">
   </div>
 
@@ -74,6 +74,6 @@
 
 <!-- Tagline -->
 <div class="container-fluid bg-darkbrown ps-5 pe-5 pt-2 pb-2 text-light d-flex">
-<!-- <span class="badge text-bg-darkorange text-light p-2">Tagline</span> -->
+  <!-- <span class="badge text-bg-darkorange text-light p-2">Tagline</span> -->
   <marquee>Mencatat Ekonomi Indonesia</marquee>
 </div>
