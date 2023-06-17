@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Jumlah UMK UMB",
+      "satuan": "Usaha",
+      "jatim": "4.618.283",
+      "head": "Jumlah Usaha",
+      "jateng": "4.139.590"
+    },
+    {
+      "id": "2",
+      "name": "Jumlah Tenaga Kerja UMK",
+      "satuan": "Orang",
+      "jatim": "10.906.153",
+      "head": "Jumlah Tenaga Kerja",
+      "jateng": "8.942.051"
+    },
+    {
+      "id": "3",
+      "name": "Balas Jasa dan Upah Pekerja UMB",
+      "satuan": "Rupiah",
+      "jatim": "115.728.784.008.383",
+      "head": "Balas Jasa dan Upah Pekerja",
+      "jateng": "61.915.960.016.587"
+    },
+    {
+      "id": "4",
+      "name": "Jumlah UMB",
+      "satuan": "Usaha",
+      "jatim": "48.461",
+      "head": "Jumlah Usaha",
+      "jateng": "33.673"
+    },
+    {
+      "id": "5",
+      "name": "Jumlah Tenaga Kerja UMB",
+      "satuan": "Orang",
+      "jatim": "2.757.461",
+      "head": "Jumlah Tenaga Kerja",
+      "jateng": "1.800.996"
+    },
+    {
+      "id": "6",
+      "name": "Balas Jasa dan Upah Pekerja UMK UMB",
+      "satuan": "Rupiah",
+      "jatim": "181.359.900.973.224",
+      "head": "Balas Jasa dan Upah Pekerja",
+      "jateng": "116.615.039.671.550"
+    },
+    {
+      "id": "7",
+      "name": "Balas Jasa dan Upah Pekerja UMK",
+      "satuan": "Rupiah",
+      "jatim": "65.631.116.964.841",
+      "head": "Balas Jasa dan Upah Pekerja",
+      "jateng": "54.699.079.654.963"
+    },
+    {
+      "id": "8",
+      "name": "Jumlah Tenaga Kerja UMK UMB",
+      "satuan": "Orang",
+      "jatim": "13.663.614",
+      "head": "Jumlah Tenaga Kerja",
+      "jateng": "10.743.047"
+    },
+    {
+      "id": "9",
+      "name": "Jumlah UMK",
+      "satuan": "Usaha",
+      "jatim": "4.569.822",
+      "head": "Jumlah Usaha",
+      "jateng": "4.105.917"
+    }
+  ]
+}

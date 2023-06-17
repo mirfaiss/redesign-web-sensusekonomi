@@ -1,0 +1,155 @@
+.btn-metadata {
+    background-color: #CD650C;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+}
+
+
+.btn-metadata:hover {
+    color: #CD650C;
+    background-color: wheat;
+    text-decoration: none;
+}
+
+.orange {
+    color: #F97137;
+}
+
+.bg-orange {
+    background-color: #F97137;
+    color: white;
+}
+
+.bg-coba {
+    background-color: #ECE5C7;
+    color: black;
+}
+
+.image-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.img-round {
+    border-radius: 13px;
+}
+
+.image-container img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    /* object-fit: contain; */
+}
+
+.search_wrap {
+    width: 700px auto;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.search_wrap .search_box {
+    position: relative;
+    width: 700px auto;
+    height: 41px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.search_wrap .search_box .search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    background-color: #F97137;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s
+
+}
+
+.search_wrap .search_box .search:hover {
+    opacity: 0.9;
+}
+
+.search_wrap .search_box .button {
+    display: flex;
+    z-index: 1;
+    background-color: white;
+    border-radius: 25px;
+    width: 80px;
+    height: 35px;
+    top: 3px;
+    right: 3px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.search_wrap .search_box .button:hover {
+    background-color: #0081C9;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+
+
+
+
+.alphabet {
+    list-style-type: none;
+}
+
+.alfabet-nav {
+    /* background-color: ; */
+    box-shadow: 1px 1px 6px 2px #ffa64d;
+}
+
+.alfabet-nav a {
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 0 10px 0 10px;
+}
+
+.alfabet-nav a:hover {
+    padding-left: 6px;
+    padding-right: 6px;
+    color: white;
+    background-color: #0081C9;
+    /* border-radius: 2px; */
+    scale: 1.4;
+    transition-timing-function: ease;
+    border-radius: 3px;
+}
+
+.table-padding {
+    padding: 30 15;
+}
+
+.top-left {
+    border-top-left-radius: 10px;
+}
+
+.top-right {
+    border-top-right-radius: 10px;
+}
+
+.bg-head-table {
+    background-color: #f0861a;
+}

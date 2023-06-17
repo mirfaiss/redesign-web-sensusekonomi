@@ -30,7 +30,16 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+
+$routes->get('/', 'Beranda::index');
+
+$routes->get('/perbandingan-wilayah', 'Beranda::perbandinganWilayah');
+$routes->get('/tentang-se2016/metadata', 'Tentang::index/Metadata');
+$routes->get('/tentang-se2016/metadata/(:any)', 'Tentang::metadata/$1');
+$routes->get('/tentang-se2016/media', 'Tentang::index/Media');
+$routes->get('/tentang-se2016/timeline', 'tentang::index/Timeline');
+
+
 
 /* --------------------------------------------------------------------
 * Produk Statistik 
@@ -42,6 +51,16 @@ $routes->get('/produk-statistik/dokumen/(:any)', 'ProdukStatistik::dokumen/$1');
 $routes->get('/produk-statistik/infografis', 'ProdukStatistik::index/infografis');
 
 
+/* --------------------------------------------------------------------
+* Layanan data
+* --------------------------------------------------------------------
+*/
+$routes->get('/layanan-data/tabel-topik', 'LayananData::index/tabelTopik');
+$routes->get('/layanan-data/tabel-topik/jumlah-usaha-tenaga-kerja-dan-balas-jasa', 'LayananData::index/jumlahUsaha');
+$routes->get('/layanan-data/tabel-topik/se2016/1/1', 'LayananData::index/tabel1');
+$routes->get('/layanan-data/tabel-topik/se2016/1/metadata', 'LayananData::index/metadata');
+$routes->get('/layanan-data/tabel-topik/se2016/1/chart', 'LayananData::index/chart');
+$routes->get('/layanan-data/tabel-topik/se2016/1/peta', 'LayananData::index/peta');
 
 /*
  * --------------------------------------------------------------------
