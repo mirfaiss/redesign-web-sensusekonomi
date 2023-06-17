@@ -7,12 +7,23 @@
 // custom variables
 $custom-theme-colors: (
     "darkorange": #f0861a,
+    "orange-carrot" : #FF9E3C,
+
     // "darkorange": #f97137,
     "darkorange2": #cd650c,
+    "darkorange3": #8a3e00,
     "darkbrown": #2b2118,
+    "darkbrown2": #492727,
     "lightorange": #faf6eb,
     "lightorange2": #fce6c4,
-    "lightorange3": #fac48d
+    "lightorange3": #fac48d,
+    "burgundy": #800020,
+    "bordeaux": #5A002C,
+    "cognac": #9A463D,
+    "burnt-orange": #cc5500,
+    "soft-green":#027A18,
+    "broken-white": #e9ecef
+
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);

@@ -1,5 +1,5 @@
 <!-- Top Header -->
-<div class="container-fluid bg-darkorange">
+<div class="container-fluid bg-orange-carrot">
   <div class="container-md">
     <div class="row">
       <div class="col-md-7 rounded-pill d-none d-md-flex align-items-center bg-lightorange2 justify-content-between">
@@ -22,7 +22,7 @@
 
 
 <!-- Navbar -->
-<nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary mb-0 ps-4 pe-4 pt-1 pb-2 bg-darkorange sticky-top">
+<nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary mb-0 ps-4 pe-4 pt-1 pb-2 bg-orange-carrot sticky-top">
   <div class="container-md">
     <div class="row">
       <div class="col-6 col-sm-6 d-flex d-md-none justify-content-start align-items-center p-0">
@@ -46,13 +46,13 @@
             LAYANAN DATA
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Tabel Topik</a></li>
-            <li><a class="dropdown-item" href="#">Perbandingan Antar Wilayah</a></li>
+            <li><a class="dropdown-item" href="/layanan-data/tabel-topik">Tabel Topik</a></li>
+            <li><a class="dropdown-item" href="/perbandingan-wilayah">Perbandingan Antar Wilayah</a></li>
           </ul>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">SE2016 LANJUTAN</a>
+          <a class="nav-link" href="/SeLanjutan">SE2016 LANJUTAN</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -60,9 +60,9 @@
             PRODUK STATISTIK
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Publikasi</a></li>
-            <li><a class="dropdown-item" href="#">Infografis</a></li>
-            <li><a class="dropdown-item" href="#">Dokumen</a></li>
+            <li><a class="dropdown-item" href="/produk-statistik/publikasi">Publikasi</a></li>
+            <li><a class="dropdown-item" href="/produk-statistik/infografis">Infografis</a></li>
+            <li><a class="dropdown-item" href="/produk-statistik/dokumen">Dokumen</a></li>
           </ul>
         </li>
 
@@ -78,7 +78,7 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2 bg-lightorange border border-darkorange" type="search" placeholder="Cari informasi..." aria-label="Search">
+        <input class="form-control me-2 bg-lightorange border border-orange-carrot" type="search" placeholder="Cari informasi..." aria-label="Search">
         <a class="btn btn-outline-light border border-3 border-lightorange text-bold" href="" aria-label="search"><i class="bi bi-search"></i></a>
       </form>
     </div>
@@ -89,6 +89,6 @@
 
 <!-- Tagline -->
 <div class="container-fluid bg-darkbrown mt-0 ps-5 pe-5 pt-2 pb-2 text-light d-md-flex">
-  <!-- <span class="badge text-bg-darkorange text-light p-2">Tagline</span> -->
+  <!-- <span class="badge text-bg-orange-carrot text-light p-2">Tagline</span> -->
   <marquee>Mencatat Ekonomi Indonesia</marquee>
 </div>
