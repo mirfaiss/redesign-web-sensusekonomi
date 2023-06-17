@@ -25,11 +25,12 @@
 .btn-readmore {
     transition: ease 0.3s;
     background-color: #FF9E3C;
-    color: white;
+    color: black;
 }
 
 .btn-readmore:hover {
     background-color: #F97137;
+    color: white;
 }
 
 .bg-coba {

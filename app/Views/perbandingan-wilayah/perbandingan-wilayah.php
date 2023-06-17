@@ -43,7 +43,7 @@
             <div class="px-5 mb-3 row pt-3">
                 <label class="col-sm-2"></label>
                 <div class="col-sm-10">
-                    <div class="btn btn-primary">Tampilkan</div>
+                    <div class="btn btn-readmore">Tampilkan</div>
                 </div>
             </div>
         </div>
