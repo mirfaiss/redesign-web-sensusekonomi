@@ -2,11 +2,12 @@
 
 <?= $this->section('content'); ?>
 <div class="container my-5">
+    <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Publikasi</strong></h1>
     <!-- <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Metadata</strong></h1> -->
 
     <!--                                                                                                                                                                                                                                                                                    filter, ngoding manual-->
     <div class="container">
-        <div class="content my-5">
+        <!-- <div class="content my-5">
             <form>
                 <div class="row mb-3">
                     <div class="mb-3 col">
@@ -38,6 +39,44 @@
                     </div>
                 </div>
             </form>
+        </div> -->
+        <div class="container mt-5">
+
+            <div class="container">
+                <!-- <div class="mx-5 alert alert-warning" role="alert">
+                    <i class="px-2 bi bi-exclamation-triangle-fill"></i>
+                    <span class="">Perbandingan antar wilayah hanya menampilkan dataset yang tersedia di level provinsi ke bawah</span>
+                </div> -->
+            </div>
+
+            <div class="container py-3 px-5">
+                <div class="px-5 mb-3 row">
+                    <label class="col-sm-2 col-form-label"><span class="d-block">Wilayah :</span></label>
+                    <div class="col-sm-10">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Semua Wilayah</option>
+                            <option value="Jawa Timur">Jawa Tengah</option>
+                            <option value="Jawa Timur">Jawa Timur</option>
+                            <option value="Jawa Tengah">Jawa Barat</option>
+                            <option value="Jawa Barat">DKI Jakarta</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="px-5 mb-3 row">
+                    <label class="col-sm-2 col-form-label">Cari :</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" placeholder="Cari..">
+                    </div>
+                </div>
+
+                <div class="px-5 mb-3 row pt-3">
+                    <label class="col-sm-2"></label>
+                    <div class="col-sm-10">
+                        <div class="btn btn-tampil">Tampilkan</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- publikasi, template + modif manual -->
@@ -248,6 +287,7 @@
             </div>
         </div>
     </div>
+</div>
 
 
-    <?= $this->endSection(); ?>
+<?= $this->endSection(); ?>

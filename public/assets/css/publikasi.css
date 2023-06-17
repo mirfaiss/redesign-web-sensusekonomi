@@ -4,3 +4,14 @@
   background-size: cover;
   background-position: center;
 }
+
+.btn-tampil {
+  background-color: #FF9E3C;
+  transition: 0.3s ease;
+  color: black;
+}
+
+.btn-tampil:hover {
+  background-color: #f0861a;
+  color: white;
+}
