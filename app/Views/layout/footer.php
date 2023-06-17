@@ -18,8 +18,8 @@
 
 
     <!-- JS for Fancybox -->
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-    <script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
+    <!-- <script>
         Fancybox.bind('[data-fancybox="gallery"]', {
             Thumbs: false,
             Toolbar: {
@@ -33,7 +33,7 @@
                 },
             },
         });
-    </script>
+    </script> -->
 
     <!-- JS for AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -66,6 +66,6 @@
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
 
-</body>
+    </body>
 
-</html>
+    </html>
