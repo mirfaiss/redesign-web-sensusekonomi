@@ -25,16 +25,52 @@ class LayananData extends BaseController
         return view('layanan-data/tabelTopik', $data);
     }
 
-    public function jumlahUsaha($jumlahUsaha)
+    public function jumlahUsahaBalasJasa($jumlahUsahaBalasJasa)
     {
-        $content = view('layanan-data/jumlahUsaha' . $jumlahUsaha);
+        $content = view('layanan-data/jumlahUsahaBalasJasa' . $jumlahUsahaBalasJasa);
 
         $data = [
-            'title' => "SE 2016 | Jumlah Usaha Tenaga Kerja dan Balas Jasa",
+            'title' => "SE 2016 |   Tabel Jumlah Usaha, Tenaga Kerja, dan Balas Jasa",
             'content' => $content,
         ];
 
-        return view('layanan-data/jumlahUsaha', $data);
+        return view('layanan-data/jumlahUsahajumlahUsahaBalasJasa', $data);
+    }
+
+    public function jumlahTenagaKerja($jumlahTenagaKerja)
+    {
+        $content = view('layanan-data/jumlahTenagaKerja' . $jumlahTenagaKerja);
+
+        $data = [
+            'title' => "SE 2016 |   Tabel Jumlah Tenaga Kerja",
+            'content' => $content,
+        ];
+
+        return view('layanan-data/jumlahTenagaKerja', $jumlahTenagaKerja);
+    }
+
+    public function balasJasaUpahPekerja($balasJasaUpahPekerja)
+    {
+        $content = view('layanan-data/balasJasaUpahPekerja' . $balasJasaUpahPekerja);
+
+        $data = [
+            'title' => "SE 2016 |   Tabel Balas Jasa dan Upah Pekerja",
+            'content' => $content,
+        ];
+
+        return view('layanan-data/balasJasaUpahPekerja', $balasJasaUpahPekerja);
+    }
+
+    public function jumlahUsahaPengeluaran($jumlahUsahaPengeluaran)
+    {
+        $content = view('layanan-data/jumlahUsahaPengeluaran' . $jumlahUsahaPengeluaran);
+
+        $data = [
+            'title' => "SE 2016 |   Tabl Jumlah Usaha, Pendapatan, dan Pengeluaran",
+            'content' => $content,
+        ];
+
+        return view('layanan-data/jumlahUsahaPengeluaran', $jumlahUsahaPengeluaran);
     }
 
     public function tabel1($tabel1)

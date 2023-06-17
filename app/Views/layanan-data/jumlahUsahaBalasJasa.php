@@ -8,13 +8,14 @@
     <!-- judul -->
     <div class="section-header text-center">
         <div class="container position-relative">
-            <h4>Jumlah Usaha</h4>
+            <h4>Jumlah Usaha, Tenaga Kerja dan Balas Jasa</h4>
         </div>
     </div>
     <section class="pb-5">
         <div class="container">
             <!-- search -->
             <div class="d-flex justify-content-end mb-2">
+                <!-- <fieldset disabled> -->
                 <form id="dataset-search">
                     <div class="input-group field-datasetsearch-keywor">
                         <input type="text" id="datasetsearch-keyword" class="input-group-append form-control" name="keyword" placeholder="Cari dataset" style="width:200px;">
@@ -22,7 +23,7 @@
                         </a>
                     </div>
                 </form>
-
+                <!-- </fieldset>       -->
             </div>
 
             <!-- table -->
@@ -37,41 +38,61 @@
                             </colgroup>
                             <thead>
                                 <tr>
-                                    <th class="text-center">No</th>
-                                    <th class="bg-accent text-center">Dataset</th>
-                                    <th class="bg-accent text-center">&nbsp;</th>
+                                    <th class="bg-accent text-white text-center">No</th>
+                                    <th class="bg-accent text-white text-center">Dataset</th>
+                                    <th class="bg-accent text-white text-center">&nbsp;</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr data-key="6">
                                     <td style="text-align:center;">1</td>
-                                    <td>Banyaknya UMK dan UMB menurut Wilayah dan Lapangan Usaha</td>
+                                    <td>Banyaknya Usaha/Perusahaan, Pekerja, Balas Jasa dan Upah Pekerja UMK dan UMB Menurut Wilayah</td>
                                     <td style="min-width:160px; text-align: center;">
                                         <a class="btn btn-sm btn-primary text-black" href="/layanan-data/tabel-topik/se2016/1/1" data-pjax="0" style="background-color: #FF9E3C; border:#eee;"> Lihat Data <i class="bi bi-arrow-right" style="font-weight: bold;"></i></a>
                                     </td>
                                 </tr>
                                 <tr data-key="5">
                                     <td style="text-align:center;">2</td>
-                                    <td>Banyaknya UMK Menurut Wilayah dan Lapangan Usaha</td>
+                                    <td>Banyaknya Usaha/Perusahaan, Pekerja, Balas Jasa dan Upah Pekerja UMK dan UMB Menurut Lapangan Usaha</td>
                                     <td style="min-width:160px; text-align: center;">
                                         <a class="btn btn-sm btn-primary text-black" href="/layanan-data/tabel-topik/se2016/1/1" data-pjax="0" style="background-color: #FF9E3C; border:#eee;"> Lihat Data <i class="bi bi-arrow-right" style="font-weight: bold;"></i></a>
                                     </td>
                                 </tr>
                                 <tr data-key="4">
                                     <td style="text-align:center;">3</td>
-                                    <td>Banyaknya UMB menurut Wilayah dan Lapangan Usaha</td>
+                                    <td>Banyaknya Usaha/Perusahaan, Pekerja, Balas Jasa dan Upah Pekerja UMK Menurut Wilayah</td>
                                     <td style="min-width:160px; text-align: center;">
                                         <a class="btn btn-sm btn-primary text-black" href="/layanan-data/tabel-topik/se2016/1/1" data-pjax="0" style="background-color: #FF9E3C; border:#eee;"> Lihat Data <i class="bi bi-arrow-right" style="font-weight: bold;"></i></a>
                                     </td>
                                 </tr>
-
+                                <tr data-key="3">
+                                    <td style="text-align:center;">4</td>
+                                    <td>Banyaknya Usaha/Perusahaan, Pekerja, Balas Jasa dan Upah Pekerja UMK Menurut Lapangan Usaha</td>
+                                    <td style="min-width:160px; text-align: center;">
+                                        <a class="btn btn-sm btn-primary text-black" href="/layanan-data/tabel-topik/se2016/1/1" data-pjax="0" style="background-color: #FF9E3C; border:#eee;"> Lihat Data <i class="bi bi-arrow-right" style="font-weight: bold;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr data-key="2">
+                                    <td style="text-align:center;">5</td>
+                                    <td>Banyaknya Usaha/Perusahaan, Pekerja, Balas Jasa dan Upah Pekerja UMB Menurut Wilayah</td>
+                                    <td style="min-width:160px; text-align: center;">
+                                        <a class="btn btn-sm btn-primary text-black" href="/layanan-data/tabel-topik/se2016/1/1" data-pjax="0" style="background-color: #FF9E3C; border:#eee;"> Lihat Data <i class="bi bi-arrow-right" style="font-weight: bold;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr data-key="1">
+                                    <td style="text-align:center;">6</td>
+                                    <td>Banyaknya Usaha/Perusahaan, Pekerja, Balas Jasa dan Upah Pekerja UMB Menurut Lapangan Usaha</td>
+                                    <td style="min-width:160px; text-align: center;">
+                                        <a class="btn btn-sm btn-primary text-black" href="/layanan-data/tabel-topik/se2016/1/1" data-pjax="0" style="background-color: #FF9E3C; border:#eee;"> Lihat Data <i class="bi bi-arrow-right" style="font-weight: bold;"></i></a>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                     <div class="d-flex justify-content-center justify-content-md-between align-items-center flex-wrap" style="row-gap: .5rem;">
                         <div class="pagination"></div>
                         <div class="pull-right">
-                            <div class="summary">Menampilkan <b>1-3</b> dari <b>3</b> item.</div>
+                            <div class="summary">Menampilkan <b>1-6</b> dari <b>6</b> item.</div>
                         </div>
                     </div>
                 </div>
@@ -95,7 +116,7 @@
                     </a>
                 </div>
                 <div class="col content gallery" id="cards_landscape_wrap-tabelTopik gallery">
-                    <a href="/layanan-data/tabel-topik/jumlah-tenaga-kerja" class=" card text-dark border-0 text-center d-block">
+                    <a href="/layanan-data/tabel-topik/jumlah-tenaga-kerja"" class=" card text-dark border-0 text-center d-block">
                         <div class="icon card-img"><img src="https://img.freepik.com/free-vector/goal-achievement-teamwork-business-concept-career-growth-cooperation-development-project_107791-29.jpg?1&w=740&t=st=1686579731~exp=1686580331~hmac=97fc6de9f1a13a2ffd81b083317ce6ac6a758c23c55ae5c29f5b087aa4b9a5b1" alt="" width="120px" height="70px"></div>
                         <h6 class="card-body">Jumlah Tenaga Kerja</h6>
                     </a>

@@ -102,12 +102,10 @@
     <link rel="stylesheet" href="/assets/css/produkStatistik.css">
     <link rel="stylesheet" href="/assets/css/layananData.css">
     <link rel="stylesheet" href="/assets/css/utility-btn.css">
-  
-  
-    <!-- JS Custon -->
+
+
+    <!-- JS Custom -->
     <script src="/assets/js/tentang-se.js"></script>
-
-
 
 </head>
 
