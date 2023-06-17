@@ -54,8 +54,8 @@
 
     <!-- tentang-se-media-v2 -->
     <script src="/assets/js/tentang-se.js"></script>
-  
-
+    <!-- tentang-se-timeline-v2 -->
+    <script src="/assets/js/timelineJs.js"></script>
 
     <!-- JS for Back to Top & FAQ -->
     <script src="/assets/js/utility-btn.js"></script>
