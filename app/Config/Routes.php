@@ -62,6 +62,19 @@ $routes->get('/layanan-data/tabel-topik/se2016/1/metadata', 'LayananData::index/
 $routes->get('/layanan-data/tabel-topik/se2016/1/chart', 'LayananData::index/chart');
 $routes->get('/layanan-data/tabel-topik/se2016/1/peta', 'LayananData::index/peta');
 
+
+
+/*--------------------------------------------------------------------
+ * SE2016 Lanjutan
+ * --------------------------------------------------------------------
+ */
+$routes->get('/se2016-lanjutan/pendataan-umk-umb', 'SeLanjutan::index');
+$routes->get('/se2016-lanjutan/surat-dukungan', 'SeLanjutan::suratdukungan');
+
+
+
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
