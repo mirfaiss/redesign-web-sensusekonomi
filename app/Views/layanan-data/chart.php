@@ -740,7 +740,7 @@
 
                                         <canvas id="myChart"></canvas>
                                     </div>
-                                    <script src="assets/js/chart-beranda.js"></script>
+                                    <script src="/assets/js/chart-beranda.js"></script>
                                 </div>
                             </div>
                             <br />
