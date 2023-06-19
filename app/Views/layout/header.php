@@ -85,7 +85,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Fancybox -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" /> -->
 
     <!-- ChartJs -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -102,8 +102,9 @@
     <link rel="stylesheet" href="/assets/css/produkStatistik.css">
     <link rel="stylesheet" href="/assets/css/layananData.css">
     <link rel="stylesheet" href="/assets/css/utility-btn.css">
-  
-  
+    <link rel="stylesheet" href="/assets/css/publikasi.css">
+
+
     <!-- JS Custon -->
     <script src="/assets/js/tentang-se.js"></script>
 

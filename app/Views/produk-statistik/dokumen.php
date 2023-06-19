@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container my-5">
-    <!-- <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Metadata</strong></h1> -->
+    <h1 class="my-2" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Dokumen</strong></h1>
 
     <!-- tab  -->
     <div class="container my-5">
@@ -31,6 +31,6 @@
                 <?= (@$content) ? $content : view('produk-statistik/dokumen/brs'); ?>
             </div>
         </div>
-    </div>         
+    </div>
 </div>
 <?= $this->endSection(); ?>
