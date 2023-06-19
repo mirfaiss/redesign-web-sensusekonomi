@@ -56,8 +56,8 @@
             <div class="col-12 col-md-6 text-center align-items-center d-flex flex-column justify-content-center">
                 <h3 class="text-white fw-800 p-3">Mencatat Ekonomi Indonesia</h3>
                 <div class="d-flex flex-column flex-md-row gap-3">
-                    <a data-aos="fade-right" data-aos-duration="1400" class="btn btn-darkbrown hover:darkbrown shadow rounded-pill fw-700 p-3 text-base sm:text-1xl md:text-1xl">Unduh Kuesioner</a>
-                    <a data-aos="fade-left" data-aos-duration="1400" class="btn btn-darkbrown hover:darkbrown shadow rounded-pill fw-700 p-3 text-base sm:text-1xl md:text-1xl">Leaflet & Booklet</a>
+                    <a data-aos="fade-right" data-aos-duration="1400" class="btn btn-darkbrown hover:darkbrown shadow rounded-pill fw-700 p-3 text-base sm:text-1xl md:text-1xl" href="/SeLanjutan#kuesioner-se">Lihat Kuesioner</a>
+                    <a data-aos="fade-left" data-aos-duration="1400" class="btn btn-darkbrown hover:darkbrown shadow rounded-pill fw-700 p-3 text-base sm:text-1xl md:text-1xl" href="<?= base_url(); ?>produk-statistik/dokumen/leaflet">Leaflet & Booklet</a>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
     <h3 class="text-center fw-700 pb-4">Layanan Data</h3>
 
     <div class="container d-flex flex-column flex-sm-row flex-wrap gap-2 justify-content-around">
-        <button class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-column gap-2 w-full sm:w-40 md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="border-radius:30px;">
+        <button onclick="window.location.href = '/layanan-data/tabel-topik'" class="btn btn-darkbrown shadow hover:darkbrown d-flex flex-column gap-2 w-full sm:w-40 md:w-30 justify-content-start justify-content-md-center align-items-center p-2 ms-1 me-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="border-radius:30px;">
             <img class="w-20 sm:w-30 md:w-40" src="/assets/images/table 2.png" alt="vector image">
             <div class="fw-600 md:text-center text-base md:text-1xl">Tabel Topik</div>
         </button>
@@ -137,7 +137,7 @@
 
         <canvas id="myChart"></canvas>
     </div>
-    <script src="assets/js/chart-beranda.js"></script>
+    <script src="/assets/js/chart-beranda.js"></script>
 </div>
 
 <!-- PUBLIKASI -->
@@ -172,7 +172,7 @@
 
         </div>
         <div class="d-flex justify-content-center pb-4 pt-2">
-            <a class="btn btn-orange-carrot text-black hover:shadow-black mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill">Lihat Publikasi Lainnya</a>
+            <a class="btn btn-orange-carrot text-black hover:shadow-black mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill" href="/produk-statistik/publikasi">Lihat Publikasi Lainnya</a>
 
         </div>
     </div>
@@ -225,7 +225,7 @@
             </div>
 
         </div>
-        <a class="btn btn-cognac hover:shadow-white mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill mb-4">Lihat Infografis Lainnya</a>
+        <a class="btn btn-cognac hover:shadow-white mt-3 fw-700 w-80 sm:w-60 md:w-40 rounded-pill mb-4" href="/produk-statistik/infografis">Lihat Infografis Lainnya</a>
     </div>
 </div>
 

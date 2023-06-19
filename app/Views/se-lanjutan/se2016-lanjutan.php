@@ -70,30 +70,30 @@
     <!-- Section : Cakupan -->
     <div class="row gx-5 mt-5 p-3 p-md-0" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="col-md-7 mb-5 mt-md-4">
-            <h3 class="fw-700 md:text-2xl">Cakupan</h3>
-            <h4 class="md:text-1xl">Cakupan Wilayah</h4>
+        <div class="col-md-7 mb-4 mt-md-4">
+            <h3 class="fw-700 md:text-2xl text-middle text-md-start">Cakupan</h3>
+            <h4 class="md:text-1xl text-middle text-md-start">Cakupan Wilayah</h4>
             <p class="text-muted" style="text-align: justify;">
                 Cakupan wilayah kegiatan Pendataan UMK dan UMB SE2016 dilaksanakan di seluruh provinsi di Indonesia.
             </p>
-            <h4 class="md:text-1xl">Cakupan Unit Usaha/Perusahaan</h4>
+            <h4 class="md:text-1xl text-middle text-md-start">Cakupan Unit Usaha/Perusahaan</h4>
             <p class="text-muted" style="text-align: justify;">
                 Kegiatan Pendataan UMK dan UMB SE2016 mencakup seluruh unit usaha/perusahaan, baik usaha/perusahaan skala besar, menengah, kecil, dan mikro. Usaha/perusahaan yang menggunakan bangunan tetap maupun tidak tetap, yang berada dalam batas wilayah Negara Kesatuan Republik Indonesia. Sedangkan aktivitas ekonominya mencakup seluruh kategori/lapangan usaha, kecuali aktivitas pertanian, kehutanan, dan perikanan (kategori A), aktivitas administrasi pemerintahan, pertahanan, dan jaminan sosial wajib (kategori O), dan aktivitas rumah tangga sebagai pemberi kerja; aktivitas yang menghasilkan barang dan jasa oleh rumah tangga yang digunakan untuk memenuhi kebutuhan sendiri (kategori T).
             </p>
         </div>
 
-        <div class="col-md-5 mb-5 mt-md-4">
+        <div class="col-md-5 mb-4 mt-md-4">
             <div class="bg-image" style="height: 100%;">
                 <img src="/assets/images/stat-img3.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
             </div>
         </div>
     </div>
 
-
+    <div id="kuesioner-se" class="mb-5"></div>
 
     <!-- Kuesioner -->
-    <div class="accordion accordion-custom mb-5 mt-1 p-3 p-md-0" id="accordionPanelsStayOpenExample" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="fw-700 md:text-2xl">Kuesioner</h3>
+    <div class="accordion accordion-custom mb-5 p-3 p-md-0" id="accordionPanelsStayOpenExample" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="fw-700 md:text-2xl text-middle text-md-start pb-2">Kuesioner</h3>
 
         <div class="accordion-item">
             <h2 class="accordion-header focus:ring-gray-200">

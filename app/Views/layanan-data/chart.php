@@ -43,7 +43,7 @@
                                     <div class=" shadow container-md chart-container position-relative md:w-80" style="aspect-ratio: 2; border-radius: 40px;" data-aos="fade-up" data-aos-duration="500">
                                         <canvas id="myChart"></canvas>
                                     </div>
-                                    <script src="assets/js/chart-beranda.js"></script>
+                                    <script src="/assets/js/chart-beranda.js"></script>
                                 </div>
                             </div>
                             <br />
