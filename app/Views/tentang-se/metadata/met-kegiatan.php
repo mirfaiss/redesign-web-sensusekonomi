@@ -3,7 +3,7 @@
     <div class="row gx-5" data-aos="fade-up" data-aos-delay="100">
         <div class="col-md-5 mb-5">
             <div class="bg-image" style="height: 100%;">
-                <img src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
+                <img src="/assets/images/pexels-mikael-blomkvist-6483626_2.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
             </div>
         </div>
 
@@ -13,14 +13,14 @@
             <p class="text-muted">
                 Sensus Ekonomi 2016 (SE2016) adalah kegiatan sensus ke empat, yang merupakan kegiatan pendataan lengkap atas seluruh unit usaha/perusahaan yang berada dalam batas-batas wilayah Negara Kesatuan Republik Indonesia (NKRI). Seluruh informasi yang dikumpulkan bermanfaat untuk mengetahui gambaran tentang performa dan struktur ekonomi baik menurut wilayah, lapangan usaha, maupun skala usaha.
             </p>
-            <button type="button" class="btn btn-primary">Read more</button>
+            <button type="button" class="btn btn-readmore">Baca selengkapnya</button>
         </div>
     </div>
 
     <div class="row gx-5 " data-aos="fade-up" data-aos-delay="200">
         <div class="col-md-5 mb-5">
             <div class="bg-image" style="height: 100%;">
-                <img src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;"" />
+                <img src="/assets/images/pexels-mikael-blomkvist-6483626_2.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;"" />
             </div>
         </div>
 
@@ -36,7 +36,7 @@
                     <li>Peraturan Presiden Republik Indonesia Nomor 86 Tahun 2007 tentang Badan PusatStatistik</li>
                 </ol>
                 </p>
-                <button type="button" class="btn btn-primary">Read more</button>
+                <button type="button" class="btn btn-readmore">Baca selengkapnya</button>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
                 <p class="text-muted">
                     Data dikumpilkan dengan cara datang langsung, email, atau telepon ke BPS serta dapat melalui web.
                 </p>
-                <button type="button" class="btn btn-primary">Read more</button>
+                <button type="button" class="btn btn-readmore">Baca selengkapnya</button>
             </div>
             <div class="mb-5">
                 <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">#Tujuan</span>
@@ -60,14 +60,14 @@
                     <li> Memperoleh data dasar dari unit usaha/perusahaan yang bergerak di berbagai aktivitas usaha di luar usaha pertanian, mencakup: Jumlah dan struktur usaha menurut wilayah, lapangan usaha, dan skala usaha; dst..</li>
                 </ol>
                 </p>
-                <button type="button" class="btn btn-primary">Read more</button>
+                <button type="button" class="btn btn-readmore">Baca selengkapnya</button>
             </div>
         </div>
 
         <div class="col-md-5 mb-5" data-aos="fade-left" data-aos-delay="300">
             <div class="image-container">
-                <img class="px-1 img-round" src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" alt="Image 1">
-                <img class="px-1 img-round" src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" alt="Image 2">
+                <img class="px-1 img-round" src="/assets/images/pexels-mikael-blomkvist-6483626_2.webp" alt="Image 1">
+                <img class="px-1 img-round" src="/assets/images/pexels-mikael-blomkvist-6483626_2.webp" alt="Image 2">
             </div>
         </div>
 
@@ -76,7 +76,7 @@
     <div class="row gx-5" data-aos="fade-up" data-aos-delay="200">
         <div class="col-md-5 mb-5">
             <div class="bg-image" style="height: 100%;">
-                <img src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
+                <img src="/assets/images/pexels-mikael-blomkvist-6483626_2.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
             </div>
         </div>
 
@@ -91,14 +91,14 @@
                 <li>Mikro Data</li>
             </ol>
             </p>
-            <button type="button" class="btn btn-primary">Read more</button>
+            <button type="button" class="btn btn-readmore">Baca selengkapnya</button>
         </div>
     </div>
 
     <div class="row gx-5" data-aos="fade-up" data-aos-delay="200">
         <div class="col-md-5 mb-5">
             <div class="bg-image" style="height: 100%;">
-                <img src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
+                <img src="/assets/images/pexels-mikael-blomkvist-6483626_2.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
             </div>
         </div>
 
@@ -113,7 +113,7 @@
                 D. Pengadaan Listrik, Gas/Uap Air Panas, dan Udara Dingin;
                 E. Pengelolaan Air, Pengelolaan Air Limbah, Pengelolaan dan Daur Ulang Sampah, dan Kegiatan Remediasi; dst..
             </p>
-            <button type="button" class="btn btn-primary">Read more</button>
+            <button type="button" class="btn btn-readmore">Baca selengkapnya</button>
         </div>
     </div>
 
@@ -127,11 +127,11 @@
                 <span class="d-block fw-bold">Hari Sensus</span>
                 15 Mei 2016.
             </p>
-            <button type="button" class="btn btn-primary">Read more</button>
+            <button type="button" class="btn btn-readmore">Baca selengkapnya</button>
         </div>
         <div class="col-md-5 mb-5">
             <div class="bg-image" style="height: 100%;">
-                <img src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover" />
+                <img src="/assets/images/pexels-mikael-blomkvist-6483626_2.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover" />
             </div>
         </div>
     </div>
@@ -147,11 +147,11 @@
                 <li>Menyusun peta dan direktori perusahaan UMB yang lengkap dan terpadu untuk setiap wilayah kabupaten/kota. dst..</li>
             </ol>
             </p>
-            <button type="button" class="btn btn-primary">Read more</button>
+            <button type="button" class="btn btn-readmore">Baca selengkapnya</button>
         </div>
         <div class="col-md-5 mb-5">
             <div class="bg-image" style="height: 100%;">
-                <img src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover" />
+                <img src="/assets/images/pexels-mikael-blomkvist-6483626_2.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover" />
             </div>
         </div>
     </div>
