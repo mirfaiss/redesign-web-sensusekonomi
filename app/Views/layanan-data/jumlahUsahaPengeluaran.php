@@ -1,4 +1,4 @@
-<?= $this->extend('layout/template'); ?>
+balasJasaUpahPekerja<?= $this->extend('layout/template'); ?>
 
 <?= $this->section('content'); ?>
 <div class="container my-5">
@@ -8,7 +8,7 @@
     <!-- judul -->
     <div class="section-header text-center">
         <div class="container position-relative">
-            <h4>Jumlah Usaha</h4>
+            <h4>Jumlah Usaha, Pendapatan, dan Pengeluaran</h4>
         </div>
     </div>
     <section class="pb-5">
@@ -45,7 +45,7 @@
                             <tbody>
                                 <tr data-key="6">
                                     <td style="text-align:center;">1</td>
-                                    <td>Banyaknya UMK dan UMB menurut Wilayah dan Lapangan Usaha</td>
+                                    <td>Jumlah Tenaga Kerja</td>
                                     <td style="min-width:160px; text-align: center;">
                                         <a class="btn btn-sm btn-primary text-black" href="/layanan-data/tabel-topik/se2016/1/1" data-pjax="0" style="background-color: #FF9E3C; border:#eee;"> Lihat Data <i class="bi bi-arrow-right" style="font-weight: bold;"></i></a>
                                     </td>

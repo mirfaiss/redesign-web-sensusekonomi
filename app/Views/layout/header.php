@@ -108,8 +108,6 @@
     <!-- JS Custon -->
     <script src="/assets/js/tentang-se.js"></script>
 
-
-
 </head>
 
 <body>

@@ -2,22 +2,22 @@
 
 <?= $this->section('content'); ?>
 <div class="container my-5">
-    <!-- <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Tabel Topik</strong></h1> -->
+    <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Tabel Topik</strong></h1>
 
     <!-- semuanya template -->
     <section class="pb-5">
         <div class="container">
             <!-- search -->
             <div class="d-flex justify-content-end mb-2">
-                <fieldset disabled>
-                    <form id="dataset-search">
-                        <div class="input-group field-datasetsearch-keywor">
-                            <input type="text" id="datasetsearch-keyword" class="input-group-append form-control" name="keyword" placeholder="Cari dataset" style="width:200px;">
-                            <button class="btn text-black" type="submit" style="background-color:#FF9E3C; border-color: #f0861a;"><i class="bi bi-search"></i>
-                            </button>
-                        </div>
-                    </form>
-                </fieldset>
+
+                <form id="dataset-search">
+                    <div class="input-group field-datasetsearch-keywor">
+                        <input type="text" id="datasetsearch-keyword" class="input-group-append form-control" name="keyword" placeholder="Cari dataset" style="width:200px;">
+                        <button class="btn text-black" type="submit" style="background-color:#FF9E3C; border-color: #f0861a;"><i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+
             </div>
 
             <!-- kategori -->
