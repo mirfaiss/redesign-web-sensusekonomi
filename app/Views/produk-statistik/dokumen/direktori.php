@@ -1,36 +1,32 @@
 <!-- FILTER -->
-<div class="container">
-    <div class="content">
-        <form>
-            <fieldset disabled>
-                <div class="row" style="padding: 1%;">
-                    <div class="mb-3 col">
-                        <label for="disabledSelect" class="form-label">Wilayah</label>
-                    </div>
-                    <div class="col-10">
-                        <select id="disabledSelect" class="form-select">
-                            <option>Semua Wilayah</option>
-                        </select>
-                    </div>
+<div class="container py-3">
+            <div class="px-5 mb-3 row">
+                <label class="col-sm-2 col-form-label"><span class="d-block">Wilayah :</span></label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Semua Wilayah</option>
+                        <option value="Jawa Timur">Jawa Timur</option>
+                        <option value="Jawa Tengah">Jawa Barat</option>
+                        <option value="Jawa Barat">DKI Jakarta</option>
+                    </select>
                 </div>
+            </div>
 
-                <div class="row" style="padding: 1%;">
-                    <div class="mb-3 col">
-                        <label for="disabledTextInput" class="form-label">Cari</label>
-                    </div>
-                    <div class="col-10">
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-                    </div>
-                </div>
+		<div class="px-5 mb-3 row">
+			<label class="col-sm-2 col-form-label">Cari :</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" placeholder="Cari..">
+			</div>
+		</div>
 
-                <div class="row" style="padding: 1%;">
-                    <div class="mb-3 col">
-                    </div>
+		<div class="px-5 mb-3 row pt-3">
+			<label class="col-sm-2"></label>
+			<div class="col-sm-10">
+				<div class="btn btn-tampil">Tampilkan</div>
+			</div>
+		</div>
+	</div>
 
-                    <div class="col-10">
-                        <button type="submit" class="btn btn-primary">Tampilkan</button>
-                    </div>
-                </div>
 
             </fieldset>
         </form>
