@@ -46,8 +46,8 @@
             LAYANAN DATA
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/layanan-data/tabel-topik">Tabel Topik</a></li>
-            <li><a class="dropdown-item" href="/perbandingan-wilayah">Perbandingan Antar Wilayah</a></li>
+            <li><a class="dropdown-item dropdown-item-custom" href="/layanan-data/tabel-topik">Tabel Topik</a></li>
+            <li><a class="dropdown-item dropdown-item-custom" href="/perbandingan-wilayah">Perbandingan Antar Wilayah</a></li>
           </ul>
         </li>
 
@@ -60,9 +60,9 @@
             PRODUK STATISTIK
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/produk-statistik/publikasi">Publikasi</a></li>
-            <li><a class="dropdown-item" href="/produk-statistik/infografis">Infografis</a></li>
-            <li><a class="dropdown-item" href="/produk-statistik/dokumen">Dokumen</a></li>
+            <li><a class="dropdown-item dropdown-item-custom" href="/produk-statistik/publikasi">Publikasi</a></li>
+            <li><a class="dropdown-item dropdown-item-custom" href="/produk-statistik/infografis">Infografis</a></li>
+            <li><a class="dropdown-item dropdown-item-custom" href="/produk-statistik/dokumen">Dokumen</a></li>
           </ul>
         </li>
 
@@ -71,9 +71,9 @@
             TENTANG SE2016
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/tentang-se2016/metadata">Metadata</a></li>
-            <li><a class="dropdown-item" href="/tentang-se2016/media">Media</a></li>
-            <li><a class="dropdown-item" href="/tentang-se2016/timeline">Timeline</a></li>
+            <li><a class="dropdown-item dropdown-item-custom" href="/tentang-se2016/metadata">Metadata</a></li>
+            <li><a class="dropdown-item dropdown-item-custom" href="/tentang-se2016/media">Media</a></li>
+            <li><a class="dropdown-item dropdown-item-custom" href="/tentang-se2016/timeline">Timeline</a></li>
           </ul>
         </li>
       </ul>

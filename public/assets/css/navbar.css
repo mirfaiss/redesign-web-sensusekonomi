@@ -18,3 +18,8 @@
     color: black;
     border-radius: 10px;
 }
+
+.dropdown-item-custom:focus{
+    background-color: #fce6c4;
+    color: black;
+}
