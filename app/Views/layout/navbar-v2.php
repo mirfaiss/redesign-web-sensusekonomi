@@ -38,11 +38,11 @@
     <div class="collapse navbar-collapse nav-custom" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">BERANDA</a>
+          <a id="BERANDA" class="nav-link nav-link-main" aria-current="page" href="/">BERANDA</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a id="LAYANAN DATA" class="nav-link nav-link-main dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             LAYANAN DATA
           </a>
           <ul class="dropdown-menu">
@@ -52,11 +52,11 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/se2016-lanjutan/pendataan-umk-umb">SE2016 LANJUTAN</a>
+          <a id="SE2016 LANJUTAN" class="nav-link nav-link-main" href="/se2016-lanjutan/pendataan-umk-umb">SE2016 LANJUTAN</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a id="PRODUK STATISTIK" class="nav-link nav-link-main dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             PRODUK STATISTIK
           </a>
           <ul class="dropdown-menu">
@@ -67,7 +67,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a id="TENTANG SE2016" class="nav-link nav-link-main dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             TENTANG SE2016
           </a>
           <ul class="dropdown-menu">

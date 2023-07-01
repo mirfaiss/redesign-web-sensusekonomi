@@ -7,7 +7,8 @@ class LayananData extends BaseController
     public function index($content)
     {
         $data = [
-            'title' => "SE 2016 | $content"
+            'title' => "SE 2016 | $content",
+            'navtitle' => 'LAYANAN DATA'
         ];
         // return view('welcome_message');
         return view('layanan-data/' . $content, $data);
@@ -20,6 +21,7 @@ class LayananData extends BaseController
         $data = [
             'title' => "SE 2016 | Tabel Topik",
             'content' => $content,
+            'navtitle' => 'LAYANAN DATA'
         ];
 
         return view('layanan-data/tabelTopik', $data);
@@ -32,6 +34,7 @@ class LayananData extends BaseController
         $data = [
             'title' => "SE 2016 |   Tabel Jumlah Usaha, Tenaga Kerja, dan Balas Jasa",
             'content' => $content,
+            'navtitle' => 'LAYANAN DATA'
         ];
 
         return view('layanan-data/jumlahUsahajumlahUsahaBalasJasa', $data);

@@ -7,7 +7,8 @@ class Beranda extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'SE2016 | Beranda'
+            'title' => 'SE2016 | Beranda',
+            'navtitle' => 'BERANDA'
         ];
         return view('beranda', $data);
     }
@@ -15,7 +16,8 @@ class Beranda extends BaseController
     public function perbandinganWilayah()
     {
         $data = [
-            'title' => 'Perbandingan Wilayah | SE2016'
+            'title' => 'Perbandingan Wilayah | SE2016',
+            'navtitle' => 'LAYANAN DATA'
         ];
 
         return view('perbandingan-wilayah/perbandingan-wilayah', $data);

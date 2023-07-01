@@ -12,3 +12,9 @@
     color: black;
     border-radius: 10px;
 }
+
+.nav-active-main{
+    background-color: #faf6eb;
+    color: black;
+    border-radius: 10px;
+}

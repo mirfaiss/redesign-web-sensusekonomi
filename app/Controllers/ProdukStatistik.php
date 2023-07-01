@@ -7,7 +7,8 @@ class ProdukStatistik extends BaseController
     public function index($content)
     {
         $data = [
-            'title' => "SE 2016 | $content"
+            'title' => "SE 2016 | $content",
+            'navtitle' => 'PRODUK STATISTIK'
         ];
         // return view('welcome_message');
         return view('produk-statistik/' . $content, $data);
@@ -20,6 +21,7 @@ class ProdukStatistik extends BaseController
         $data = [
             'title' => "SE 2016 | Dokumen",
             'content' => $content,
+            'navtitle' => 'PRODUK STATISTIK'
         ];
 
         return view('produk-statistik/dokumen', $data);
@@ -32,6 +34,7 @@ class ProdukStatistik extends BaseController
         $data = [
             'title' => "SE 2016 | Publikasi",
             'content' => $content,
+            'navtitle' => 'PRODUK STATISTIK'
         ];
 
         return view('produk-statistik/publikasi', $data);
@@ -44,6 +47,7 @@ class ProdukStatistik extends BaseController
         $data = [
             'title' => "SE 2016 | infografis",
             'content' => $content,
+            'navtitle' => 'PRODUK STATISTIK'
         ];
 
         return view('produk-statistik/infografis', $data);
