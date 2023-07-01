@@ -327,4 +327,7 @@
 
 </div>
 
+<!-- tentang-se-media-v2 -->
+<script src="/assets/js/tentang-se.js"></script>
+
 <?= $this->endSection(); ?>
