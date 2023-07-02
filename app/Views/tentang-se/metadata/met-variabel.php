@@ -46,7 +46,7 @@
         <div class="col-2 col-sm-1"></div>
     </div>
 
-    <div class="table" data-aos="fade-up" data-aos-delay="100">
+    <div class="table table-responsive"  data-aos="fade-up" data-aos-delay="100">
         <table class="table table-striped">
             <thead class="bg-orange">
                 <tr class="">

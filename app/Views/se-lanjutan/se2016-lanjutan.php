@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container-md">
-    <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | SE2016 Lanjutan</strong></h1>
+    <h1 class="my-3 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | SE2016 Lanjutan</strong></h1>
 
     <div class="d-flex flex-column flex-sm-row gap-2 mb-5">
         <a href="/se2016-lanjutan/pendataan-umk-umb" class="fw-800 hover:shadow-black text-decoration-none text-center text-base text-black bg-orange-carrot p-2" style="border-radius: 10px; cursor: pointer;">Pendataan UMK UMB</a>
@@ -11,7 +11,7 @@
     </div>
 
     <!-- Section : Informasi Umum -->
-    <div class="row mt-5 p-3 p-md-0" data-aos="fade-up" data-aos-delay="100">
+    <div class="row mt-5 p-3 p-md-0 " data-aos="fade-up" data-aos-delay="100">
         <div class=" col-md-5 mb-5">
             <div class="bg-image" style="height: 100%;">
                 <img src="/assets/images/stat-img.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
@@ -31,7 +31,7 @@
 
 
     <!-- Section : Maksud dan Tujuan -->
-    <div class="mt-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+    <div class="mt-4 mb-5 " data-aos="fade-up" data-aos-delay="100">
         <h3 class="fw-700 md:text-2xl text-center mb-4">Maksud & Tujuan</h3>
         <div class="d-flex flex-column flex-md-row">
             <div class="col-md-5 shadow-sm p-4" style="border-radius: 20px;">
@@ -68,7 +68,7 @@
 
 
     <!-- Section : Cakupan -->
-    <div class="row gx-5 mt-5 p-3 p-md-0" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gx-4 mt-5 p-3 p-md-0" data-aos="fade-up" data-aos-delay="100">
 
         <div class="col-md-7 mb-4 mt-md-4">
             <h3 class="fw-700 md:text-2xl text-middle text-md-start">Cakupan</h3>
