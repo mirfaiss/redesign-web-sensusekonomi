@@ -38,8 +38,18 @@
     </div>
   </form> -->
 
-	<div class="container py-3 px-2rem md:px-2rem">
+	<div class="container py-3 md:px-2rem">
 		<div class="md:px-2rem mb-3 row">
+			<div class="col-10">
+				<input type="text" class="form-control" placeholder="Cari..">
+			</div>
+			<button class="btn btn-orange-carrot text-black col-2">Cari</button>
+		</div>
+	</div>
+
+	<div class="container py-3 md:px-2rem">
+		<div class="md:px-2rem mb-3 row">
+			<p class="text-1xl"><strong>Filter Berdasarkan Wilayah</strong></p>
 			<label class="col-sm-2 col-form-label"><span class="d-block">Wilayah :</span></label>
 			<div class="col-sm-10">
 				<select class="form-select" aria-label="Default select example">
@@ -52,12 +62,6 @@
 			</div>
 		</div>
 
-		<div class="md:px-2rem mb-3 row">
-			<label class="col-sm-2 col-form-label">Cari :</label>
-			<div class="col-sm-10">
-				<input type="text" class="form-control" placeholder="Cari..">
-			</div>
-		</div>
 
 		<div class="md:px-2rem mb-3 row pt-3">
 			<label class="col-sm-2"></label>
