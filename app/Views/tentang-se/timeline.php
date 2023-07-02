@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container">
-    <h1 class="my-4" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Timeline</strong></h1>
+    <h1 class="my-4 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Timeline</strong></h1>
 
     <div class="container my-5 bg-timeline timeline timeline-container">
         <div class="ag-timeline-block">

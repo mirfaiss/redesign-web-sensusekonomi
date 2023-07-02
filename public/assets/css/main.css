@@ -226,6 +226,38 @@ body {
   box-shadow: 1px 0.5px 5px #242424;
 }
 
+
+/* padding */
+.px-none{
+  padding-left: 0;
+  padding-right: 0;
+}
+.px-1rem{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-2rem{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.px-3rem{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.px-4rem{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.px-5rem{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.px-6rem{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+
 /* Responsive Classes */
 @media (min-width: 576px) {
   /* sm:height */
@@ -332,6 +364,37 @@ body {
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+
+  /*.sm:padding */
+  .sm\:px-none{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sm\:px-1rem{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .sm\:px-2rem{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .sm\:px-3rem{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .sm\:px-4rem{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .sm\:px-5rem{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .sm\:px-6rem{
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
 
@@ -441,6 +504,36 @@ body {
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  /*.md:padding */
+  .md\:px-none{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .md\:px-1rem{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .md\:px-2rem{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .md\:px-3rem{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .md\:px-4rem{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .md\:px-5rem{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .md\:px-6rem{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -539,6 +632,36 @@ body {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  /*.lg:padding */
+  .lg\:px-none{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .lg\:px-1rem{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .lg\:px-2rem{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .lg\:px-3rem{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .lg\:px-4rem{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .lg\:px-5rem{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .lg\:px-6rem{
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
 

@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container-md">
-    <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | SE2016 Lanjutan</strong></h1>
+    <h1 class="my-3 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | SE2016 Lanjutan</strong></h1>
 
     <div class="d-flex flex-column flex-sm-row gap-2 mb-5">
         <a href="/se2016-lanjutan/pendataan-umk-umb" class="fw-800 hover:shadow-black text-reset text-decoration-none text-center text-base text-muted p-2" style="border-radius: 10px; cursor: pointer;">Pendataan UMK UMB</a>
