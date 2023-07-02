@@ -525,4 +525,6 @@
     </div>
 
 </div>
+<!-- tentang-se-timeline-v2 -->
+<script src="/assets/js/timelineJs.js"></script>
 <?= $this->endSection(); ?>

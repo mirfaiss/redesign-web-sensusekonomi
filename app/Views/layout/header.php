@@ -38,7 +38,6 @@
 
     <!-- Vendor -->
     <link href="/assets/vendorx/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="/assets/css/glightbox.min.css" rel="stylesheet">
     <link href="/assets/vendorx/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="/assets/vendorx/aos/aos.css" rel="stylesheet">
     <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -103,10 +102,6 @@
     <link rel="stylesheet" href="/assets/css/layananData.css">
     <link rel="stylesheet" href="/assets/css/utility-btn.css">
     <link rel="stylesheet" href="/assets/css/publikasi.css">
-
-
-    <!-- JS Custon -->
-    <script src="/assets/js/tentang-se.js"></script>
 
 </head>
 
