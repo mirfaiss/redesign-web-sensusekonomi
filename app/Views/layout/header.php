@@ -102,6 +102,7 @@
     <link rel="stylesheet" href="/assets/css/layananData.css">
     <link rel="stylesheet" href="/assets/css/utility-btn.css">
     <link rel="stylesheet" href="/assets/css/publikasi.css">
+    <link rel="stylesheet" href="/assets/css/tooltip-custom.css">
 
 </head>
 

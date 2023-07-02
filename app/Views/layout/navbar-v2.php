@@ -28,10 +28,11 @@
       <div class="col-6 col-sm-6 d-flex d-md-none justify-content-start align-items-center p-0">
         <img src="/assets/images/logo-se2016.png" alt="Logo-Sensus-Ekonomi-2016" style="max-width: 75%; max-height: 75%;" class="align-text-center bg-lightorange2 rounded-pill ps-3 pe-3">
       </div>
-      <div class="col-6 col-sm-6 col-md-12 d-flex justify-content-end">
+      <div class="col-6 col-sm-6 col-md-12 d-flex justify-content-end tooltip-custom">
         <button class="navbar-toggler ms-auto border border-3 border-lightorange" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
+        <span class="tooltipcustomtext">Menu Navigasi</span>
       </div>
     </div>
 

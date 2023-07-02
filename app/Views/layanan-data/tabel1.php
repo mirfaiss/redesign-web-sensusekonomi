@@ -56,10 +56,22 @@
                                 <!-- print tabel -->
                                 <div class="col-auto ml-lg-auto">
                                     <div class="btn-group">
-                                        <a href="/topik/tabular/sp2020/5/1/1" target="_blank" class="btn btn-info"><i class="bi bi-printer"></i></a>
-                                        <a href="/topik/tabular/sp2020/5/1/2" target="_blank" class="btn btn-danger text-black"><i class="bi bi-file-earmark-pdf"></i></a>
-                                        <a href="/topik/tabular/sp2020/5/1/4" target="_blank" class="btn btn-success text-black"><i class="bi bi-file-earmark-spreadsheet"></i></a>
-                                        <a href="/topik/tabular/sp2020/5/1/3" target="_blank" class="btn btn-secondary text-black"><i class="fa fa-database fa-fw"></i> JSON</a>
+                                        <div class="tooltip-custom">
+                                            <a href="/topik/tabular/sp2020/5/1/1" target="_blank" class="btn btn-info"><i class="bi bi-printer"></i></a>
+                                            <span class="tooltipcustomtext">Cetak</span>
+                                        </div>
+                                        <div class="tooltip-custom">
+                                            <a href="/topik/tabular/sp2020/5/1/2" target="_blank" class="btn btn-danger text-black"><i class="bi bi-file-earmark-pdf"></i></a> <span class="tooltipcustomtext">Unduh PDF</span>
+                                        </div>
+                                        <div class="tooltip-custom">
+                                            <a href="/topik/tabular/sp2020/5/1/4" target="_blank" class="btn btn-success text-black"><i class="bi bi-file-earmark-spreadsheet"></i></a>
+                                            <span class="tooltipcustomtext">Unduh Excel</span>
+                                        </div>
+                                        <div class="tooltip-custom">
+                                            <a href="/topik/tabular/sp2020/5/1/3" target="_blank" class="btn btn-secondary text-black"><i class="fa fa-database fa-fw"></i> JSON</a>
+                                            <span class="tooltipcustomtext">Unduh JSON</span>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
