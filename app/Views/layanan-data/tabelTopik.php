@@ -7,18 +7,6 @@
     <!-- semuanya template -->
     <section class="pb-5">
         <div class="container">
-            <!-- search -->
-            <div class="d-flex justify-content-end mb-2">
-
-                <form id="dataset-search">
-                    <div class="input-group field-datasetsearch-keywor">
-                        <input type="text" id="datasetsearch-keyword" class="input-group-append form-control" name="keyword" placeholder="Cari dataset" style="width:200px;">
-                        <button class="btn text-black" type="submit" style="background-color:#FF9E3C; border-color: #f0861a;"><i class="bi bi-search"></i>
-                        </button>
-                    </div>
-                </form>
-
-            </div>
 
             <!-- kategori -->
             <div class="container" id="cards_landscape_wrap-tabelTopik">
