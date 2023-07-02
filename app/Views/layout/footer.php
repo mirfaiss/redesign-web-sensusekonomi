@@ -66,6 +66,10 @@
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
 
+    <!-- Custom JS for Navbar -->
+    <script src="/assets/js/navbar.js"></script>
+
+
     </body>
 
     </html>

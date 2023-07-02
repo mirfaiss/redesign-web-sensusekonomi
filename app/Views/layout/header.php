@@ -111,3 +111,4 @@
 </head>
 
 <body>
+    <p id="navname" style="display: none;"><?= $navtitle; ?></p>

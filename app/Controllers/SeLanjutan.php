@@ -7,7 +7,8 @@ class SeLanjutan extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'SE2016 | SE2016 Lanjutan'
+            'title' => 'SE2016 | SE2016 Lanjutan',
+            'navtitle' => 'SE2016 LANJUTAN'
         ];
         return view('se-lanjutan/se2016-lanjutan', $data);
     }
@@ -15,7 +16,8 @@ class SeLanjutan extends BaseController
     public function suratdukungan()
     {
         $data = [
-            'title' => 'SE2016 | SE2016 Lanjutan'
+            'title' => 'SE2016 | SE2016 Lanjutan',
+            'navtitle' => 'SE2016 LANJUTAN'
         ];
         return view('se-lanjutan/surat-dukungan', $data);
     }
