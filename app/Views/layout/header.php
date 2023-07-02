@@ -112,6 +112,3 @@
 
 <body>
     <p id="navname" style="display: none;"><?= $navtitle; ?></p>
-    <script>
-        // alert(document.getElementById('navname').innerHTML)
-    </script>
