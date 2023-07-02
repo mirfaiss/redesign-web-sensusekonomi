@@ -815,40 +815,38 @@
                             <p>
                                 <b>Nama</b><br />
 
-                                Banyak Usaha <br />
+                                Banyaknya usaha/perusahaan UMK dan UMB <br />
                             </p>
-                            <p>
+                            <p style="text-align: justify;">
                                 <b>Definisi</b><br />
 
-                                Banyaknya usaha yang tercatat <br />
+                                Jumlah usaha/perusahaan dalam kategori UMK dan UMB. Usaha/perusahaan dikategorikan sebagai UMK apabila nilai omset ≤ 2,5 miliar atau jumlah pekerja < 20 untuk industri pengolahan atau sesuai dengan klasifikasi/status badan usaha tertentu, sedangkan usaha/perusahaan yang dikategorikan sebagai sebagai UMB adalah yang memiliki nilai omset> 2,5 miliar rupiah atau jumlah tenaga kerja ≥ 20 untuk industri pengolahan atau sesuai dengan klasifikasi/status badan usaha tertentu. <br />
                             </p>
                             <p>
                                 <b>Satuan</b><br />
 
-                                Unit usaha <br />
+                                Usaha/perusahaan <br />
                             </p>
                             <p>
                                 <b>Mekanisme perhitungan</b><br />
 
-                                Penjumlahan dari tiap unit usaha <br />
+                                Penjumlahan dari setiap unit usaha/perusahaan <br />
                             </p>
                             <p>
                                 <b>Manfaat</b><br />
 
-                                Sebagai dasar perencanaan pembangunan di berbagai bidang, terutama ekonomi<br />
+                                Mengetahui jumlah usaha/perusahaan UMK dan UMB di suatu wilayah. <br />
                             </p>
                             <p>
                                 <b>Interpretasi</b><br />
 
-                                Semakin tinggi angka semakin banyak jumlah usaha <br />
+                                Semakin tinggi nilai indikator Banyaknya UMK dan UMB maka semakin banyak jumlah usaha/perusahaan UMK dan UMB di suatu wilayah. <br />
                             </p>
-
                             <p>
                                 <b>Referensi</b><br />
 
                                 Badan Pusat Statistik <br />
                             </p>
-
                             <p>
                                 <b>Ukuran</b><br />
 
