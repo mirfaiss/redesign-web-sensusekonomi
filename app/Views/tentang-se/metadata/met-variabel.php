@@ -1,7 +1,7 @@
 <div class="container">
     <!-- <h1>Hello, World!</h1> -->
 
-    <div class="search_wrap col-6" data-aos="fade-up" data-aos-delay="100">
+    <div class="search_wrap col-sm-6" data-aos="fade-up" data-aos-delay="100">
         <div class="search_box">
             <input type="text" class="search" placeholder="Cari...">
             <a class="button" href="#"> Cari
@@ -12,8 +12,8 @@
 
 
     <div class="row my-5" data-aos="fade-up" data-aos-delay="100">
-        <div class="col-2 col-sm-1"></div>
-        <div class="col-8 col-sm-10">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
             <div class="alfabet-nav my-4 py-3 px-5 d-flex align-content-around flex-wrap justify-content-center">
                 <a href="#">A</a> <span> | </span>
                 <a href="#">B</a> <span> | </span>
@@ -43,7 +43,7 @@
                 <a href="#">Z</a>
             </div>
         </div>
-        <div class="col-2 col-sm-1"></div>
+        <div class="col-lg-2"></div>
     </div>
 
     <div class="table table-responsive"  data-aos="fade-up" data-aos-delay="100">
