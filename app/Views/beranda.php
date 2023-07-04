@@ -12,10 +12,10 @@
     <!-- DATA HASIL SE2016 -->
     <div class="row">
         <div class="col-md-7 d-none d-md-flex align-items-center justify-content-start">
-            <img src="/assets/images/supermarket-shaped5.png" class="img-fluid" width="90%;" alt="background-image">
+            <img src="/assets/images/supermarket-shaped5.jpg" class="img-fluid" width="90%;" alt="background-image">
         </div>
         <div class="col-12 d-flex d-md-none align-items-center justify-content-center mb-4">
-            <img src="/assets/images/supermarket-shaped7.png" class="img-fluid w-80 sm:w-60" alt="background-image">
+            <img src="/assets/images/supermarket-shaped7.jpg" class="img-fluid w-80 sm:w-60" alt="background-image">
         </div>
         <div class="col-12 col-md-5 d-flex flex-column align-items-center justify-content-center gap-3">
             <div class="bg-lightorange2 text-dark shadow-sm d-flex justify-content-center justify-content-md-start align-items-center w-100 p-3 gap-3 flex-wrap" style="border-radius: 40px;">
@@ -137,7 +137,7 @@
 
         <canvas id="myChart"></canvas>
     </div>
-    <script src="assets/js/chart-beranda.js"></script>
+    <script src="/assets/js/chart-beranda.js"></script>
 </div>
 
 <!-- PUBLIKASI -->

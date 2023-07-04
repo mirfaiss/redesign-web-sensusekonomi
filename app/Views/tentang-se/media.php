@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container">
-    <h1 class="my-4" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Media</strong></h1>
+    <h1 class="my-4 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Media</strong></h1>
     <!-- MEDIA 60x336 -->
     <!-- <div data-aos="fade-up">
         <h2 class="text-center mt-5" style="font-weight: bold;"><strong>Media <span class="orange">SE 2016</span></strong></h2>
@@ -326,5 +326,8 @@
     </div>
 
 </div>
+
+<!-- tentang-se-media-v2 -->
+<script src="/assets/js/tentang-se.js"></script>
 
 <?= $this->endSection(); ?>

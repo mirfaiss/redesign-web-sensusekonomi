@@ -4,19 +4,19 @@
 
 <div class="container my-5">
     <div class="container my-5">
-        <h1><strong>Perbandingan Antar Wilayah</strong></h1>
+        <h1 class="my-3 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Perbandingan Antar Wilayah</strong></h1>
     </div>
     <div class="container mt-5">
 
         <div class="container">
-            <div class="mx-5 alert alert-warning" role="alert">
+            <div class="mx-4 alert alert-warning" role="alert">
                 <i class="px-2 bi bi-exclamation-triangle-fill"></i>
                 <span class="">Perbandingan antar wilayah hanya menampilkan dataset yang tersedia di level provinsi ke bawah</span>
             </div>
         </div>
 
         <div class="container py-3">
-            <div class="px-5 mb-3 row">
+            <div class="px-2rem mb-3 row">
                 <label class="col-sm-2 col-form-label"><span class="d-block">Wilayah 1 :</span></label>
                 <div class="col-sm-10">
                     <select class="form-select" aria-label="Default select example">
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="px-5 mb-3 row">
+            <div class="px-2rem mb-3 row">
                 <label class="col-sm-2 col-form-label">Wilayah 2 :</label>
                 <div class="col-sm-10">
                     <select class="form-select" aria-label="Default select example">
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="px-5 mb-3 row pt-3">
+            <div class="px-2rem mb-3 row pt-3">
                 <label class="col-sm-2"></label>
                 <div class="col-sm-10">
                     <div class="btn btn-readmore">Tampilkan</div>

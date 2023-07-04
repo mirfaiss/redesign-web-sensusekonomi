@@ -2,16 +2,16 @@
 
 <?= $this->section('content'); ?>
 <div class="container-md">
-    <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | SE2016 Lanjutan</strong></h1>
+    <h1 class="my-3 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | SE2016 Lanjutan</strong></h1>
 
     <div class="d-flex flex-column flex-sm-row gap-2 mb-5">
-        <a href="/Selanjutan" class="fw-800 hover:shadow-black text-decoration-none text-center text-base text-black bg-orange-carrot p-2" style="border-radius: 10px; cursor: pointer;">Pendataan UMK UMB</a>
+        <a href="/se2016-lanjutan/pendataan-umk-umb" class="fw-800 hover:shadow-black text-decoration-none text-center text-base text-black bg-orange-carrot p-2" style="border-radius: 10px; cursor: pointer;">Pendataan UMK UMB</a>
 
-        <a href="/Selanjutan/suratdukungan" class="fw-800 hover:shadow-black text-reset text-decoration-none text-center text-base text-muted p-2" style="border-radius: 10px; cursor: pointer;">Surat Dukungan SE2016 Lanjutan</a>
+        <a href="/se2016-lanjutan/surat-dukungan" class="fw-800 hover:shadow-black text-reset text-decoration-none text-center text-base text-muted p-2" style="border-radius: 10px; cursor: pointer;">Surat Dukungan SE2016 Lanjutan</a>
     </div>
 
     <!-- Section : Informasi Umum -->
-    <div class="row mt-5 p-3 p-md-0" data-aos="fade-up" data-aos-delay="100">
+    <div class="row mt-5 p-3 p-md-0 " data-aos="fade-up" data-aos-delay="100">
         <div class=" col-md-5 mb-5">
             <div class="bg-image" style="height: 100%;">
                 <img src="/assets/images/stat-img.webp" class="img-fluid img-round" style="height: 100%; object-fit: cover;" />
@@ -31,7 +31,7 @@
 
 
     <!-- Section : Maksud dan Tujuan -->
-    <div class="mt-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+    <div class="mt-4 mb-5 " data-aos="fade-up" data-aos-delay="100">
         <h3 class="fw-700 md:text-2xl text-center mb-4">Maksud & Tujuan</h3>
         <div class="d-flex flex-column flex-md-row">
             <div class="col-md-5 shadow-sm p-4" style="border-radius: 20px;">
@@ -68,15 +68,15 @@
 
 
     <!-- Section : Cakupan -->
-    <div class="row gx-5 mt-5 p-3 p-md-0" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gx-4 mt-5 p-3 p-md-0" data-aos="fade-up" data-aos-delay="100">
 
         <div class="col-md-7 mb-4 mt-md-4">
-            <h3 class="fw-700 md:text-2xl">Cakupan</h3>
-            <h4 class="md:text-1xl">Cakupan Wilayah</h4>
+            <h3 class="fw-700 md:text-2xl text-middle text-md-start">Cakupan</h3>
+            <h4 class="md:text-1xl text-middle text-md-start">Cakupan Wilayah</h4>
             <p class="text-muted" style="text-align: justify;">
                 Cakupan wilayah kegiatan Pendataan UMK dan UMB SE2016 dilaksanakan di seluruh provinsi di Indonesia.
             </p>
-            <h4 class="md:text-1xl">Cakupan Unit Usaha/Perusahaan</h4>
+            <h4 class="md:text-1xl text-middle text-md-start">Cakupan Unit Usaha/Perusahaan</h4>
             <p class="text-muted" style="text-align: justify;">
                 Kegiatan Pendataan UMK dan UMB SE2016 mencakup seluruh unit usaha/perusahaan, baik usaha/perusahaan skala besar, menengah, kecil, dan mikro. Usaha/perusahaan yang menggunakan bangunan tetap maupun tidak tetap, yang berada dalam batas wilayah Negara Kesatuan Republik Indonesia. Sedangkan aktivitas ekonominya mencakup seluruh kategori/lapangan usaha, kecuali aktivitas pertanian, kehutanan, dan perikanan (kategori A), aktivitas administrasi pemerintahan, pertahanan, dan jaminan sosial wajib (kategori O), dan aktivitas rumah tangga sebagai pemberi kerja; aktivitas yang menghasilkan barang dan jasa oleh rumah tangga yang digunakan untuk memenuhi kebutuhan sendiri (kategori T).
             </p>
@@ -93,7 +93,7 @@
 
     <!-- Kuesioner -->
     <div class="accordion accordion-custom mb-5 p-3 p-md-0" id="accordionPanelsStayOpenExample" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="fw-700 md:text-2xl">Kuesioner</h3>
+        <h3 class="fw-700 md:text-2xl text-middle text-md-start pb-2">Kuesioner</h3>
 
         <div class="accordion-item">
             <h2 class="accordion-header focus:ring-gray-200">

@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container my-5">
-    <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Metadata</strong></h1>
+    <h1 class="my-3 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Metadata</strong></h1>
 
     <div class="">
         <ul class="nav justify-content-center">

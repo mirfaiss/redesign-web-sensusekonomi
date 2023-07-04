@@ -58,10 +58,10 @@
 
     <div class="text-light d-flex flex-column col-12 col-md-2 p-2 align-items-center align-items-md-start">
         <p class="fw-bolder mb-2">PRODUK STATISTIK</p>
-        <a href="#" class="text-decoration-none text-light"><small class="fw-bolder">Berita Resmi Statistik</small></a>
-        <a href="#" class="text-decoration-none text-light"><small class="fw-bolder">Publikasi</small></a>
-        <a href="#" class="text-decoration-none text-light"><small class="fw-bolder">Infografis</small></a>
-        <a href="#" class="text-decoration-none text-light"><small class="fw-bolder">Dokumen Lainnya</small></a>
+        <a href="<?= base_url(); ?>produk-statistik/dokumen" class="text-decoration-none text-light"><small class="fw-bolder">Berita Resmi Statistik</small></a>
+        <a href="/produk-statistik/publikasi" class="text-decoration-none text-light"><small class="fw-bolder">Publikasi</small></a>
+        <a href="/produk-statistik/infografis" class="text-decoration-none text-light"><small class="fw-bolder">Infografis</small></a>
+        <a href="/produk-statistik/dokumen" class="text-decoration-none text-light"><small class="fw-bolder">Dokumen Lainnya</small></a>
     </div>
 </div>
 

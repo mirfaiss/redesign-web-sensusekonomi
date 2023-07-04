@@ -2,12 +2,13 @@
 
 <?= $this->section('content'); ?>
 <div class="container my-5">
-    <!-- <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Tabel Topik</strong></h1> -->
+    <h1 class="my-3 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Tabel Topik</strong></h1>
 
     <!-- semuanya template -->
-    <!-- judul -->
     <section class="py-3">
         <div class="container">
+
+            <!-- jenis visualisasi -->
             <div class="row">
                 <div class="col-lg mb-2 mb-lg-0align-self-center"></div>
                 <div class="col-lg-auto align-self-center">
@@ -34,6 +35,7 @@
                         <!-- tabel -->
                         <div id="tab-tabel" class="tab-pane active">
                             <div class="row mb-4 justify-content-center">
+                                <!-- jenis tabel -->
                                 <div class="col-lg mb-2 mb-lg-0align-self-center">
                                     <div class="row mx-n1">
                                         <div class="col-lg-auto px-1 align-self-center">
@@ -51,21 +53,32 @@
 
                                 <div class="col-auto ml-lg-auto"></div>
 
+                                <!-- print tabel -->
                                 <div class="col-auto ml-lg-auto">
                                     <div class="btn-group">
-                                        <a href="/topik/tabular/sp2020/5/1/1" target="_blank" class="btn btn-info"><i class="bi bi-printer"></i></a>
-                                        <a href="/topik/tabular/sp2020/5/1/2" target="_blank" class="btn btn-danger text-black"><i class="bi bi-file-earmark-pdf"></i></a>
-                                        <a href="/topik/tabular/sp2020/5/1/4" target="_blank" class="btn btn-success text-black"><i class="bi bi-file-earmark-spreadsheet"></i></a>
-                                        <a href="/topik/tabular/sp2020/5/1/3" target="_blank" class="btn btn-secondary text-black"><i class="fa fa-database fa-fw"></i> JSON</a>
+                                        <div class="tooltip-custom">
+                                            <a href="/topik/tabular/sp2020/5/1/1" target="_blank" class="btn btn-info"><i class="bi bi-printer"></i></a>
+                                            <span class="tooltipcustomtext">Cetak</span>
+                                        </div>
+                                        <div class="tooltip-custom">
+                                            <a href="/topik/tabular/sp2020/5/1/2" target="_blank" class="btn btn-danger text-black"><i class="bi bi-file-earmark-pdf"></i></a> <span class="tooltipcustomtext">Unduh PDF</span>
+                                        </div>
+                                        <div class="tooltip-custom">
+                                            <a href="/topik/tabular/sp2020/5/1/4" target="_blank" class="btn btn-success text-black"><i class="bi bi-file-earmark-spreadsheet"></i></a>
+                                            <span class="tooltipcustomtext">Unduh Excel</span>
+                                        </div>
+                                        <div class="tooltip-custom">
+                                            <a href="/topik/tabular/sp2020/5/1/3" target="_blank" class="btn btn-secondary text-black"><i class="fa fa-database fa-fw"></i> JSON</a>
+                                            <span class="tooltipcustomtext">Unduh JSON</span>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
 
                             <!-- judul tabel -->
-                            <center>
-                                <h4 class="mb-2">Banyaknya Usaha/Perusahaan, Pekerja, Balas Jasa dan Upah Pekerja UMK dan UMB Menurut Wilayah</h4>
-                            </center>
-
+                            <h4 class="m-4" style="text-align: center;">Banyaknya Usaha/Perusahaan, Pekerja, Balas Jasa dan Upah Pekerja UMK dan UMB Menurut Wilayah</h4>
+                            <!-- badan tabel -->
                             <div class="table-responsive">
                                 <table id="datatable" class="table table-compact table-bordered table-border-light table-hover">
                                     <thead class="text-black text-center align-middle" style="background-color: #FF9E3C; border-color: #f0861a;">
@@ -720,226 +733,98 @@
                                 </table>
                             </div>
                         </div>
-
-                        <!-- chart -->
-                        <div id="tab-grafik" class="tab-pane">
-
-                            <center>
-                                <h4>
-                                    <p class="mb-0">Jumlah Penduduk Menurut Wilayah, Kesesuaian Alamat KK dengan Domisili, dan Jenis Kelamin, INDONESIA, Tahun 2020</p>
-                                </h4>
-                                <small class="font-weight-light">Klik pada bar chart untuk melihat data disagregasi level berikutnya</small>
-                            </center>
-
-                            <div id="chart" style="min-height: 600px;"></div>
-                            <br />
-                            <div class="text-center">
-                                <div class="btn-group">
-                                    <button class="btn btn-secondary" id="bar">Bar chart</button>
-                                    <button class="btn btn-secondary active" id="column">Column chart</button>
-                                </div>
-                            </div>
-                            <br /><br />
-
-                        </div>
-                        <div id="tab-peta" class="tab-pane">
-
-                            <div class="row mb-4">
-
-                                <div class="col-lg">
-                                    <div class="row">
-
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-2">Wilayah</div>
-                                        <div class="col-auto px-0">:</div>
-                                        <div class="col">INDONESIA</div>
-                                    </div>
-                                </div>
-
-                                <div class="col-auto ml-auto">
-
-                                </div>
-                            </div>
-
-                            <section class="py-5" style="padding-top: 0 !important">
-                                <div class="container">
-                                    <div class="card border-0 shadow">
-                                        <div class="card-header border-0 bg-accent text-white">
-                                            <div class="row">
-                                                <div class="col align-self-center">
-                                                    Jumlah Penduduk Menurut Wilayah, Kesesuaian Alamat KK dengan Domisili, dan Jenis Kelamin, INDONESIA, Tahun 2020 </div>
-                                                <div class="col-auto">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <div id="spinner" style="text-align: center;margin: 200px">
-                                                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
-                                                <span class="sr-only">Loading...</span>
-                                            </div>
-                                            <div class="row" id="mapContainer"></div>
-                                            <br />
-
-                                            <div class="col-lg-9">
-                                                <div class="form-group row">
-                                                    <label for="" class="col-auto">Warna : </label>
-                                                    <input type="hidden" name="Wilayah[color_map]" value="">
-                                                    <div id="color-picker" class="color-group-select col-auto"><label class="color-item" style="margin:5px 15px 0 0;"><input type="radio" name="Wilayah[color_map]" value="0" checked><span style="background:#03a9f4;"></span></label>
-                                                        <label class="color-item" style="margin:5px 15px 0 0;"><input type="radio" name="Wilayah[color_map]" value="1"><span style="background:#4caf50;"></span></label>
-                                                        <label class="color-item" style="margin:5px 15px 0 0;"><input type="radio" name="Wilayah[color_map]" value="2"><span style="background:#ab47bc;"></span></label>
-                                                        <label class="color-item" style="margin:5px 15px 0 0;"><input type="radio" name="Wilayah[color_map]" value="3"><span style="background:#f44336;"></span></label>
-                                                        <label class="color-item" style="margin:5px 15px 0 0;"><input type="radio" name="Wilayah[color_map]" value="4"><span style="background:#1a237e;"></span></label>
-                                                        <label class="color-item" style="margin:5px 15px 0 0;"><input type="radio" name="Wilayah[color_map]" value="5"><span style="background:#34495e;"></span></label>
-                                                    </div>
-                                                </div>
-                                                <div id="klasifikasi"></div>
-                                                <button class="btn btn-primary" onclick="reload_map();return false;">Terapkan</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-
-                        </div>
                     </div>
                     <br />
 
                     <!-- metadata  -->
-                    <div class="card bg-light mb-4">
-                        <div class="card-header collapsed" data-toggle="collapse" data-target="#indikator-kegiatan" style="background: #ccffcc">
-                            <i class="bi bi-plus-circle bi-bw"></i> Metadata Indikator
-                        </div>
-                        <div id="indikator-kegiatan" class="card-body font-small collapse">
-                            <p>
-                                <b>Nama</b><br />
+                    <div class="card bg-light mb-4 offcanvas-body">
+                        <div class="accordion-item">
+                            <h2 class="card-header accordion-header bg-light">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    Metadata Indikator
+                                </button>
+                            </h2>
 
-                                Jumlah Penduduk <br />
-                            </p>
-                            <p>
-                                <b>Definisi</b><br />
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" style="background-color:white">
+                                <div class="card-body font-small">
+                                    <p>
+                                        <b>Nama</b><br />
 
-                                Ukuran absolut dari penduduk, dinyatakan dalam jiwa <br />
-                            </p>
-                            <p>
-                                <b>Satuan</b><br />
+                                        Banyaknya usaha/perusahaan UMK dan UMB <br />
+                                    </p>
+                                    <p style="text-align: justify;">
+                                        <b>Definisi</b><br />
 
-                                Jiwa <br />
-                            </p>
-                            <p>
-                                <b>Mekanisme perhitungan</b><br />
+                                        Jumlah usaha/perusahaan dalam kategori UMK dan UMB. Usaha/perusahaan dikategorikan sebagai UMK apabila nilai omset ≤ 2,5 miliar atau jumlah pekerja < 20 untuk industri pengolahan atau sesuai dengan klasifikasi/status badan usaha tertentu, sedangkan usaha/perusahaan yang dikategorikan sebagai sebagai UMB adalah yang memiliki nilai omset> 2,5 miliar rupiah atau jumlah tenaga kerja ≥ 20 untuk industri pengolahan atau sesuai dengan klasifikasi/status badan usaha tertentu. <br />
+                                    </p>
+                                    <p>
+                                        <b>Satuan</b><br />
 
-                                Penjumlahan dari setiap individu <br />
-                            </p>
-                            <p>
-                                <b>Manfaat</b><br />
+                                        Usaha/perusahaan <br />
+                                    </p>
+                                    <p>
+                                        <b>Mekanisme perhitungan</b><br />
 
-                                Sebagai dasar perencanaan pembangunan di berbagai bidang <br />
-                            </p>
-                            <p>
-                                <b>Interpretasi</b><br />
+                                        Penjumlahan dari setiap unit usaha/perusahaan <br />
+                                    </p>
+                                    <p>
+                                        <b>Manfaat</b><br />
 
-                                Semakin tinggi angka semakin banyak jumlah penduduk <br />
-                            </p>
-                            <p>
-                                <b>Frekuensi update</b><br />
+                                        Mengetahui jumlah usaha/perusahaan UMK dan UMB di suatu wilayah. <br />
+                                    </p>
+                                    <p>
+                                        <b>Interpretasi</b><br />
 
-                                Lebih dari Dua Tahunan <br />
-                            </p>
-                            <p>
-                                <b>Referensi</b><br />
+                                        Semakin tinggi nilai indikator Banyaknya UMK dan UMB maka semakin banyak jumlah usaha/perusahaan UMK dan UMB di suatu wilayah. <br />
+                                    </p>
+                                    <p>
+                                        <b>Referensi</b><br />
 
-                                Badan Pusat Statistik <br />
-                            </p>
-                            <p>
-                                <b>Subyek</b><br />
+                                        Badan Pusat Statistik <br />
+                                    </p>
+                                    <p>
+                                        <b>Ukuran</b><br />
 
-                                Kependudukan dan migrasi <br />
-                            </p>
-                            <p>
-                                <b>Ukuran</b><br />
-
-                                Jumlah <br />
-                            </p>
-                            <p>
-                                <b>Konsep</b><br />
-
-                                <b>Penduduk</b> :<br />Penduduk adalah semua orang yang berdomisili di wilayah Negara Kesatuan Republik Indonesia selama 1 tahun atau lebih dan atau mereka yang berdomisili kurang dari 1 tahun tetapi bertujuan untuk menetap selama 1 tahun atau lebih <br />
-                            </p>
-
+                                        Jumlah <br />
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     <!-- klasifikasi -->
-                    <div class="card bg-light mb-4">
-                        <div class="card-header" data-toggle="collapse" data-target="#deskripsi-klasifikasi" style="background: #ccccff">
-                            <i class="bi bi-plus-circle bi-fw"></i> Deskripsi Klasifikasi
-                        </div>
-                        <div id="deskripsi-klasifikasi" class="card-body font-small collapse">
+                    <div class="card bg-light mb-4 offcanvas-body">
+                        <div class="accordion-item">
+                            <h2 class="card-header accordion-header bg-light">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    Deskripsi Klasifikasi
+                                </button>
+                            </h2>
 
-
-                            <div class="card-header">
-                                <b>Klasifikasi Kesesuaian Alamat KK dengan Domisili</b><br />
-                                Merupakan Pengelompokan atau Pengkodean untuk Kesesuaian Alamat KK dengan Domisili
-                            </div>
-                            <div class="card-body">
-                                <p>
-                                    <b>Sesuai</b><br />
-                                    (definisi jelas) <br />
-                                </p>
-                                <p>
-                                    <b>Tidak Sesuai</b><br />
-                                    (definisi jelas) <br />
-                                </p>
-                                <p>
-                                    <b>Total</b><br />
-                                    Total (definisi jelas) <br />
-                                </p>
-                            </div>
-                            <div class="card-header">
-                                <b>Klasifikasi Jenis Kelamin </b><br />
-                                Merupakan Pengelompokan atau Pengkodean untuk Jenis Kelamin
-                            </div>
-                            <div class="card-body">
-                                <p>
-                                    <b>Laki-laki</b><br />
-                                    Laki-laki (definisi jelas) <br />
-                                </p>
-                                <p>
-                                    <b>Perempuan</b><br />
-                                    Perempuan (definisi jelas) <br />
-                                </p>
-                                <p>
-                                    <b>Total</b><br />
-                                    Total (definisi jelas) <br />
-                                </p>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" style="background-color:white">
+                                <div class="card-body font-small">
+                                    <p>
+                                        <b>
+                                            <h5>Jenis Kelamin</h5>
+                                        </b>
+                                    </p>
+                                    <p>
+                                        <b>Sesuai</b><br />
+                                        (definisi jelas) <br />
+                                    </p>
+                                    <p>
+                                        <b>Tidak Sesuai</b><br />
+                                        (definisi jelas) <br />
+                                    </p>
+                                    <p>
+                                        <b>Total</b><br />
+                                        Total (definisi jelas) <br />
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- share medsos -->
-                    <!-- <div class="row row-share">
-                        <div class="col-auto align-self-center">
-                            Bagikan :
-                        </div>
-                        <div class="col-auto align-self-center">
-                            <div class="social">
-                                <a href="#" title="Bagikan ke facebook" data-link="/topik/hit_data/5?id_wilayah=1&jenis_hit=3" class="hit_data" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsensus.bps.go.id%2Ftopik%2Ftabular%2Fsp2020%2F5%3Fshare%3D1', '_blank', 'location=yes,height=570,width=800,scrollbars=yes,status=yes');">
-                                    <img src="/static/images/social/facebook.svg" alt="" width="32">
-                                </a>
-                                <a href="#" title="Bagikan ke twitter" data-link="/topik/hit_data/5?id_wilayah=1&jenis_hit=4" class="hit_data" onclick="window.open('https://twitter.com/intent/tweet?url=http%3A%2F%2Fsensus.bps.go.id%2Ftopik%2Ftabular%2Fsp2020%2F5%3Fshare%3D1', '_blank', 'location=yes,height=570,width=800,scrollbars=yes,status=yes');">
-                                    <img src="/static/images/social/twitter.svg" alt="" width="32">
-                                </a>
-                                <a href="#" title="Bagikan ke whatsapp" data-link="/topik/hit_data/5?id_wilayah=1&jenis_hit=5" class="hit_data" onclick="window.open('https://api.whatsapp.com/send?text=http%3A%2F%2Fsensus.bps.go.id%2Ftopik%2Ftabular%2Fsp2020%2F5%3Fshare%3D1', '_blank', 'location=yes,height=570,width=500,scrollbars=yes,status=yes');">
-                                    <img src="/static/images/social/whatsapp.svg" alt="" width="32">
-                                </a>
-                                <a href="#" title="Copy link address" data-link="/topik/hit_data/5?id_wilayah=1&jenis_hit=6&id_wilayah=1" onclick="notifSukses('Link Berhasil Tersalin')" class="urlcopy hit_data" data-url="http://sensus.bps.go.id/topik/tabular/sp2020/5?share=1" onclick="notifSukses('Link Berhasil Tersalin')">
-                                    <img src="/static/images/social/link.svg" alt="" width="32">
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -950,232 +835,12 @@
     <script src="/assets/js/layananData/slick.min.js"></script>
     <script src="/assets/js/layananData/app.js"></script>
     <script src="/assets/js/layananData/jquery.fancybox.min.js"></script>
-    <script src="/assets/js/layananData/sweetalert.js"></script>
+    <script src="/assets/js/layananData/export-data.js"></script>
 
 
 
 
 
-    <!-- <script>
-        $(function() {
-            new ClipboardJS(".urlcopy", {
-                text: function(trigger) {
-                    return trigger.getAttribute('data-url');
-                }
-            });
 
-            $('.select2').select2({
-                theme: "bootstrap"
-            });
-        });
-
-
-        $(document).ready(function() {
-            $('#datatable').DataTable({
-                'paging': false,
-                'searching': false,
-                'info': false,
-                'language': {
-                    "decimal": ",",
-                    "thousands": "."
-                }
-            });
-
-            Highcharts.setOptions({
-                lang: {
-                    thousandsSep: ','
-                }
-            })
-        });
-
-
-        $(function() {
-
-            Highcharts.chart('chart', {
-                chart: {
-                    type: 'column',
-                    height: 600,
-                    width: 600,
-                    marginTop: 50
-                },
-                exporting: {
-                    buttons: {
-                        contextButton: {
-                            align: 'left',
-                        }
-                    }
-                },
-                title: {
-                    text: ''
-                },
-                xAxis: [{
-                    type: 'category',
-                }],
-                legend: {
-                    enabled: false,
-                },
-                yAxis: {
-                    title: {
-                        text: null
-                    },
-                    labels: {
-                        formatter: function() {
-                            return Highcharts.numberFormat(Math.abs(this.value), 0);
-                        }
-                    }
-                },
-                credits: false,
-                plotOptions: {
-
-                },
-
-                tooltip: {
-                    formatter: function() {
-                        let d = this.point.drilldown;
-                        let s = '';
-                        if (d)
-                            s = '<br/><br/>' + '<small class="text-muted">Klik untuk lebih detail</small>'
-                        return '<b>' + this.series.name + '</b><br/>' +
-                            this.key + ' : ' + Highcharts.numberFormat(Math.abs(this.point.y), 0) + s;
-                    }
-                },
-
-                series: [{
-                    "name": "",
-                    "data": [{
-                        "name": "-",
-                        "y": {
-                            "": null
-                        },
-                        "drilldown": null
-                    }]
-                }],
-                drilldown: {
-                    series: []
-                }
-            });
-
-            var chart = $('#chart').highcharts(),
-                updateChart = function(typeOfChart, ifInvert, thisButton, minW = null, minH = null) {
-                    chart.update({
-                        chart: {
-                            type: typeOfChart,
-                            inverted: ifInvert,
-                            height: minH,
-                            width: minW
-                        }
-                    });
-                };
-
-            $('#bar').on('click', function() {
-                $(this).addClass('active').siblings().removeClass('active');
-                updateChart('bar', true, this, 1000, 600);
-            });
-
-            $('#column').on('click', function() {
-                $(this).addClass('active').siblings().removeClass('active');
-                updateChart('column', false, this, 1000, 600);
-            });
-        });
-
-
-        $(function() {
-            $('#klasifikasi').load("/topik/list_klasifikasi" + '/' + 3, function() {
-                reload_map();
-            });
-        });
-
-        $('.select2').select2({
-            theme: "bootstrap"
-        });
-
-        function reload_map() {
-            $('#mapContainer').hide();
-            $('#spinner').show();
-
-            var data = {
-                item_1: $('select[name=item_1]').val(),
-                item_2: $('select[name=item_2]').val(),
-                item_3: $('select[name=item_3]').val(),
-                item_4: $('select[name=item_4]').val()
-            };
-            $('#mapContainer').load("/topik/map" + '/' + 3, data, function() {
-                $('#spinner').hide();
-                $('#mapContainer').show();
-            });
-        }
-
-        $(document).on('change', '#color-picker', function() {
-            $('#mapContainer').hide();
-            $('#spinner').show();
-
-            var data = {
-                item_1: $('select[name=item_1]').val(),
-                item_2: $('select[name=item_2]').val(),
-                item_3: $('select[name=item_3]').val(),
-                item_4: $('select[name=item_4]').val(),
-                warna: $("input:radio[name='Wilayah[color_map]']:checked").val()
-            };
-            $('#mapContainer').load("/topik/map" + '/' + 3, data, function() {
-                $('#spinner').hide();
-                $('#mapContainer').show();
-            });
-        });
-
-
-        $(document).on('pjax:send', function() {
-            $('#loading').show();
-        });
-
-        $(document).on('pjax:complete', function(xhr, textStatus, options) {
-            $('.btn_delete_all').hide();
-            if (options == 'error') {
-                window.location.reload();
-            }
-            if (textStatus.getResponseHeader('redirect-url')) {
-                $.pjax({
-                    url: textStatus.getResponseHeader('redirect-url'),
-                    container: '#pjax-table',
-                    method: 'POST'
-                });
-                return false;
-            } else {
-                $('#loading').hide();
-            }
-
-            $('.tooltips').tooltip({
-                animation: false
-            });
-        });
-
-        $('#pjax-search').submit(function() {
-            $.pjax.reload({
-                container: '#pjax-table',
-                type: 'POST',
-                data: $(this).serialize()
-            });
-            return false;
-        });
-
-        $('.search').change(function() {
-            $('#pjax-search').submit();
-            return false;
-        });
-
-        $('.ubah_tahun').change(function() {
-            $('#data-tahun').submit();
-            location.reload({
-                container: '.container',
-                type: 'POST',
-                data: $(this).serialize()
-            });
-            return false;
-        });
-
-        $('#fox').on('click', function(e) {
-            e.preventDefault();
-            $('#linkgenerate-verifycode-image').yiiCaptcha('refresh');
-        })
-    </script> -->
 </div>
 <?= $this->endSection(); ?>

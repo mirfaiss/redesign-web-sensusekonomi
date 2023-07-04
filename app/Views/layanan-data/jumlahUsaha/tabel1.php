@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container my-5">
-    <!-- <h1 class="my-3" style="font-weight: bold;"><strong><span class="orange">SE 2016</span> | Tabel Topik</strong></h1> -->
+    <h1 class="my-3 text-middle sm:text-start" style="font-weight: bold;"><strong><span class="orange">SE2016</span> | Tabel Topik</strong></h1>
 
     <!-- semuanya template -->
     <!-- judul -->
@@ -14,13 +14,13 @@
                     <div class="btn-group col col-md-auto px-0">
                         <ul class="nav nav-pills nav-fill col col-md-auto px-0">
                             <li class="nav-item">
-                                <a href="#" class="nav-link active text-black" data-toggle="tab" data-target="#tab-tabel" style="background-color: #FF9E3C;">Tabel</a>
+                                <a href="/layanan-data/tabel-topik/se2016/1/1" class="nav-link active text-black" data-toggle="tab" data-target="#tab-tabel" style="background-color: #FF9E3C;">Tabel</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link text-black" data-toggle="tab" data-target="#tab-grafik">Grafik</a>
+                                <a href="/layanan-data/tabel-topik/se2016/1/chart" class="nav-link text-black" data-toggle="tab" data-target="#tab-grafik">Grafik</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link text-black" data-toggle="tab" data-target="#tab-peta">Peta</a>
+                                <a href="/layanan-data/tabel-topik/se2016/1/peta" class="nav-link text-black" data-toggle="tab" data-target="#tab-peta">Peta</a>
                             </li>
                         </ul>
                     </div>
@@ -808,39 +808,44 @@
 
                     <!-- metadata  -->
                     <div class="card bg-light mb-4">
-                        <div class="card-header" data-toggle="collapse" data-target="#indikator-kegiatan" style="background: #ccffcc">
-                            <i class="bi bi-dash-circle-fill bi-bw"></i> Metadata Indikator
+                        <div class="card-header collapsed" data-toggle="collapse" data-target="#indikator-kegiatan" style="background: #ccffcc">
+                            <i class="bi bi-plus-circle bi-bw"></i> Metadata Indikator
                         </div>
-                        <div id="indikator-kegiatan" class="card-body font-small collapse show ">
+                        <div id="indikator-kegiatan" class="card-body font-small collapse">
                             <p>
                                 <b>Nama</b><br />
 
-                                Banyaknya usaha/perusahaan UMK dan UMB <br />
+                                Jumlah Penduduk <br />
                             </p>
-                            <p style="text-align: justify;">
+                            <p>
                                 <b>Definisi</b><br />
 
-                                Jumlah usaha/perusahaan dalam kategori UMK dan UMB. Usaha/perusahaan dikategorikan sebagai UMK apabila nilai omset ≤ 2,5 miliar atau jumlah pekerja < 20 untuk industri pengolahan atau sesuai dengan klasifikasi/status badan usaha tertentu, sedangkan usaha/perusahaan yang dikategorikan sebagai sebagai UMB adalah yang memiliki nilai omset> 2,5 miliar rupiah atau jumlah tenaga kerja ≥ 20 untuk industri pengolahan atau sesuai dengan klasifikasi/status badan usaha tertentu. <br />
+                                Ukuran absolut dari penduduk, dinyatakan dalam jiwa <br />
                             </p>
                             <p>
                                 <b>Satuan</b><br />
 
-                                Usaha/perusahaan <br />
+                                Jiwa <br />
                             </p>
                             <p>
                                 <b>Mekanisme perhitungan</b><br />
 
-                                Penjumlahan dari setiap unit usaha/perusahaan <br />
+                                Penjumlahan dari setiap individu <br />
                             </p>
                             <p>
                                 <b>Manfaat</b><br />
 
-                                Mengetahui jumlah usaha/perusahaan UMK dan UMB di suatu wilayah. <br />
+                                Sebagai dasar perencanaan pembangunan di berbagai bidang <br />
                             </p>
                             <p>
                                 <b>Interpretasi</b><br />
 
-                                Semakin tinggi nilai indikator Banyaknya UMK dan UMB maka semakin banyak jumlah usaha/perusahaan UMK dan UMB di suatu wilayah. <br />
+                                Semakin tinggi angka semakin banyak jumlah penduduk <br />
+                            </p>
+                            <p>
+                                <b>Frekuensi update</b><br />
+
+                                Lebih dari Dua Tahunan <br />
                             </p>
                             <p>
                                 <b>Referensi</b><br />
@@ -848,9 +853,19 @@
                                 Badan Pusat Statistik <br />
                             </p>
                             <p>
+                                <b>Subyek</b><br />
+
+                                Kependudukan dan migrasi <br />
+                            </p>
+                            <p>
                                 <b>Ukuran</b><br />
 
                                 Jumlah <br />
+                            </p>
+                            <p>
+                                <b>Konsep</b><br />
+
+                                <b>Penduduk</b> :<br />Penduduk adalah semua orang yang berdomisili di wilayah Negara Kesatuan Republik Indonesia selama 1 tahun atau lebih dan atau mereka yang berdomisili kurang dari 1 tahun tetapi bertujuan untuk menetap selama 1 tahun atau lebih <br />
                             </p>
 
                         </div>
